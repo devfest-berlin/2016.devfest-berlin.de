@@ -1,1 +1,19 @@
-.DS_STORE
+### General ###
+*.lock
+
+### Jekyll ###
+_site/
+
+### Sass ###
+.sass-cache
+
+### Windows ###
+# Windows image file caches
+Thumbs.db
+ehthumbs.db
+
+### IntelliJ ###
+.idea
+
+### OSX ###
+.DS_Store

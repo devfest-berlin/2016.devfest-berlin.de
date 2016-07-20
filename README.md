@@ -40,14 +40,14 @@ To install all development dependencies install [Bundler](http://bundler.io/).
 and run next command from root folder:
 
 ```bash
-    bundle install
+  bundle install
 ```  
 
 To start Jekyll run:
 ```bash
     jekyll serve -w
 ```
-Site will be available at http://127.0.0.1:4000/ or http://localhost:4000/zeppelin/ (on Windows)
+Site will be available at http://127.0.0.1:4000/zeppelin/ or http://localhost:4000/zeppelin/ (on Windows)
 
 **NOTE:** in this mode all changes to html and data files will be automatically regenerated, but after changing ```_config.yml``` you have to restart server.
 
@@ -93,7 +93,7 @@ Going to use template? Go on! The only thing we ask - let us know at [*lviv@gdg.
 
 | | | |
 |------|------|------|
-| [GDG DevFest Ukraine 2014](http://devfest.gdg.org.ua/) | [GDG DevFest Istanbul 2014](http://devfesttr.com/) | [GDG Bangalore Site](http://gdgbangalore.github.io/) |
+| [GDG DevFest Ukraine 2014](http://devfest.gdg.org.ua/) | [GDG DevFest Istanbul 2014](http://2014.devfesttr.com/) | [GDG Bangalore Site](http://gdgbangalore.github.io/) |
 | [GDG DevFest Omsk 2014](http://gdg-devfest-omsk.org/) | [2014 南阳 GDG Devfest 大会](http://devfest.gdgny.org) | [DevFest Nordeste 2014](http://2014.devfestne.com.br/) |
 | [GDG DevFest The Netherlands](http://www.devfest.nl/) | [DevFest Centro-Oeste 2014](http://www.devfestcentrooeste.com.br/) | [Android DevFest Space Coast](http://gdg-space-coast.github.io/zeppelin/) |
 | [DevFest SP 2014](http://sp.devfest.com.br/) | [DevFest in Baroda](http://devfest.gdgbaroda.com/) | [GDG Hi Pic (France)](http://maximemularz.github.io/zeppelin/) |
@@ -110,12 +110,17 @@ Going to use template? Go on! The only thing we ask - let us know at [*lviv@gdg.
 | [GDG Akure](http://gdgakure.github.io/)|[MENAT GDG Summit 2014](http://summit.gdg-menat.com/)|[Women Techmakers Istanbul 2015](http://wtmistanbul.com) |
 | [GDG DevFest Mallorca](http://devfest.gdgmallorca.com/)| [Michigan GDG DevFest 2015](http://michigandevfest.com/) | [International Women's Day](http://iwd.gdgnorthjersey.com/womeninnovation/) |
 | [Women Techmakers Tbilisi 2015](http://womentechmakers.ge/) | [Android Xtended](http://www.androidxtended.com/) |[GDG Bingham University](http://binghamuni.edu.ng/gdg)|
+| [JSday Maceio 2015](http://jsday.com.br) | [DevFest Nordeste 2015](http://2015.devfestne.com.br) | [GDG DevFest Vijayawada 2015](http://devfest.gdg-vijayawada.org) |
+| [Geek Night Recife](http://geeknightrecife.github.io/) | [IO Extended 2016 Madrid ](http://io.gdg.es/) | [AngularCamp](http://angularcamp.org/)
 
 
 ### Contributors
 * Design and web development: [Oleh Zasadnyy](https://github.com/ozasadnyy)
 * Idea: [Vitaliy Zasadnyy](https://github.com/zasadnyy)
-* Bug fixing and support: [Said Tahsin Dane](https://github.com/tasomaniac)
+
+See [list of contributors](https://github.com/gdg-x/zepplin/graphs/contributors)
+
+Maintainers: [@tasomaniac](https://github.com/tasomaniac) and [@ozasadnyy](https://github.com/ozasadnyy).
 
 ### License
 Project is published under the [MIT license](https://github.com/gdg-x/zeppelin/blob/master/LICENSE.txt). Feel free to clone and modify repo as you want, but don't forget to add reference to authors :)
