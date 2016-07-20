@@ -1,0 +1,152 @@
+- 
+  date: "2015-11-13"
+  dateReadable: "Workshops // Friday, November 13"
+  tracks: 
+    - {title: "Android", color: "#99cc00"}
+    - {title: "Web", color: "#ff8800"}
+    - {title: "Cloud", color: "#3366cc"}
+  timeslots:
+    - {
+    	startTime: "14:00",
+    	endTime: "14:45",
+    	sessionIds: [201]
+    }
+    - {
+        startTime: "14:45",
+        endTime: "15:00",
+        sessionIds: [202]
+    }
+    - {
+    	startTime: "15:00",
+    	endTime: "18:30",
+    	sessionIds: [203, 204, 205]
+    }
+    - {
+        startTime: "15:00",
+        endTime: "18:30",
+        sessionIds: [206, 404, 404]
+    }
+- 
+  date: "2015-11-14"
+  dateReadable: "Conference // Saturday, November 14"
+  tracks: 
+    - {title: "Android // Atrium", color: "#99cc00"}
+    - {title: "Web // Casino", color: "#ff8800"}
+    - {title: "Cloud // Konfi 4+5", color: "#3366cc"}
+  timeslots: 
+    - {
+    	startTime: "08:30",
+    	endTime: "09:30",
+    	sessionIds: [301]
+    }
+    - {
+    	startTime: "09:30",
+    	endTime: "10:00",
+    	sessionIds: [302]
+    }
+    - {
+        startTime: "10:00",
+        endTime: "10:45",
+        sessionIds: [327, 325, 320]
+    }
+    - {
+        startTime: "11:00",
+        endTime: "11:45",
+        sessionIds: [330, 324, 333]
+    }
+    - {
+        startTime: "12:00",
+        endTime: "12:45",
+        sessionIds: [332, 337, 326]
+    }
+    - {
+        startTime: "12:45",
+        endTime: "13:00",
+        sessionIds: [338, 101]
+    }
+    - {
+        startTime: "13:00",
+        endTime: "14:00",
+        sessionIds: [101]
+    }
+    - {
+        startTime: "14:00",
+        endTime: "14:45",
+        sessionIds: [331, 334, 321]
+    }
+    - {
+        startTime: "15:00",
+        endTime: "15:45",
+        sessionIds: [329, 335, 323]
+    }
+    - {
+        startTime: "16:00",
+        endTime: "16:45",
+        sessionIds: [328, 336, 322]
+    }
+    - {
+        startTime: "16:45",
+        endTime: "17:30",
+        sessionIds: [102]
+    }
+    - {
+        startTime: "17:30",
+        endTime: "18:15",
+        sessionIds: [303, 304, 305]
+    }
+    - {
+        startTime: "18:30",
+        endTime: "19:00",
+        sessionIds: [306]
+    }
+    - {
+        startTime: "19:00",
+        endTime: "23:59",
+        sessionIds: [307]
+    }
+- 
+  date: "2015-11-15"
+  dateReadable: "Hackathon // Sunday, November 15"
+  tracks: 
+    - {title: "Hackathon", color: "#3D1255"}
+  timeslots: 
+    - {
+        startTime: "09:00",
+        endTime: "09:45",
+        sessionIds: [401]
+    }
+    - {
+        startTime: "09:45",
+        endTime: "10:00",
+        sessionIds: [402]
+    }
+    - {
+        startTime: "10:00",
+        endTime: "10:30",
+        sessionIds: [403]
+    }
+    - {
+        startTime: "10:30",
+        endTime: "13:00",
+        sessionIds: [405]
+    }
+    - {
+        startTime: "13:00",
+        endTime: "14:00",
+        sessionIds: [101]
+    }
+    - {
+        startTime: "14:00",
+        endTime: "17:00",
+        sessionIds: [405]
+    }
+    - {
+        startTime: "17:00",
+        endTime: "18:00",
+        sessionIds: [406]
+    }
+    - {
+        startTime: "18:00",
+        endTime: "18:30",
+        sessionIds: [407]
+    }
