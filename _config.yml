@@ -44,7 +44,7 @@ c4sponsorsUrl: "https://drive.google.com/file/d/0B63FtzFoCw0_aHJYeTBoWjE5R1E/vie
 navigationLinks:
  - {permalink: "/", text: "Home"}
  - {permalink: "/blog/", text: "Blog"}
- - {permalink: "/schedule/", text: "Schedule"}
+# - {permalink: "/schedule/", text: "Schedule"}
 # - {permalink: "/speakers/", text: "Speakers"}
  - {permalink: "/logistics/", text: "Logistics"}
  - {permalink: "/team/", text: "Team"}
@@ -63,7 +63,7 @@ eventDate: "11/12 November 2016"
 typeoutTextValues: '"Karlsruhe?", "Hamburg?", "Vienna?", "Malta?", "Zurich?", "Brussels?", "Berlin 2016!"'
 typeoutFallback: "Berlin 2016"
 heroButtons:
- - {permalink: "/schedule", text: "See the schedule"} 
+# - {permalink: "/schedule", text: "See the schedule"} 
 # - {permalink: "/#tickets", text: "Redeem ticket code"}
 
 # About Block
