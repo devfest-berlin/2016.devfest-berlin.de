@@ -43,7 +43,7 @@ c4sponsorsUrl: "https://drive.google.com/file/d/0B63FtzFoCw0_aHJYeTBoWjE5R1E/vie
 # Navigation
 navigationLinks:
  - {permalink: "/", text: "Home"}
-# - {permalink: "/blog/", text: "Blog"}
+ - {permalink: "/blog/", text: "Blog"}
 # - {permalink: "/schedule/", text: "Schedule"}
 # - {permalink: "/speakers/", text: "Speakers"}
  - {permalink: "/logistics/", text: "Logistics"}
@@ -198,9 +198,9 @@ footerBlocks:
    - {permalink: "/code-of-conduct/", text: "Code of Conduct"}
 
 # Blog
-# blogTitle: "Latest News"
-# blogCommentsEnabled: false
-# discusShortName: "devfestBerlin"
+blogTitle: "Latest News"
+blogCommentsEnabled: false
+discusShortName: "devfestBerlin"
 
 # Speakers List Block
 showSessions: true

@@ -5,10 +5,6 @@ date:   2015-11-26 21:21:21
 isStaticPost: false
 ---
 
-Sweet memories of 3 days of developer awesomeness
-
-#### DevFest Berlin 2015 in pictures
-
 Thanks to our wonderful photographer [Dana (be moody photography)](http://bemoody.de) we are all able to relive DevFest Berlin 2015 in pictures - over 400 to be concrete.
 
 <a href="https://goo.gl/photos/7ME4YD8iPkkZKMu87" title="See the whole DevFest Berlin 2015 album">
