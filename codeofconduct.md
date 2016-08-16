@@ -14,7 +14,8 @@ If someone is bothering you, please tell GDG Organizers immediately and they wil
 
 [Read full version](https://github.com/devfest-berlin/code-of-conduct/blob/master/code_of_conduct.md)
 
-######Contacts:
+
+###### Contacts:
 
 - Stefan Hoth, +49 179 210 86 09, [stefan@devfest-berlin.de](mailto:stefan@devfest-berlin.de)
 - Natalie Pistunovich, +49 176 15 00 38 62, [natalie@devfest-berlin.de](mailto:natalie@devfest-berlin.de)
