@@ -90,3 +90,16 @@
     - {name: "google-plus", link: "https://plus.google.com/+NataliePistunovich"}
     - {name: "github", link: "https://github.com/pisush"}
     - {name: "linkedin", link: "https://de.linkedin.com/in/nataliepistunovich"}
+
+-
+  id: 8
+  name: "Miquel"
+  surname: "Beltran"
+  title: "GDG Berlin Women Tech Makers"
+  thumbnailUrl: MiquelBeltran.jpg
+  team: true
+  social:
+    - {name: "google-plus", link: "https://plus.google.com/u/1/+MiquelBeltranFebrer"}
+    - {name: "github", link: "https://github.com/miquelbeltran"}
+    - {name: "twitter", link: "https://twitter.com/Miqubel"}
+    - {name: "linkedin", link: "https://de.linkedin.com/in/miquelbeltran"}
