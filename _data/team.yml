@@ -67,3 +67,16 @@
     - {name: "github", link: "https://github.com/miquelbeltran"}
     - {name: "twitter", link: "https://twitter.com/Miqubel"}
     - {name: "linkedin", link: "https://de.linkedin.com/in/miquelbeltran"}
+
+-
+  id: 9
+  name: "Nebojsa"
+  surname: "Bozic"
+  title: "Software engineer"
+  thumbnailUrl: nebojsa_bozic_nebo.jpg
+  team: true
+  social:
+    - {name: "google-plus", link: "https://plus.google.com/u/1/+BozicNebojsa"}
+    - {name: "github", link: "https://github.com/Kursulla"}
+    - {name: "twitter", link: "https://twitter.com/Kursulla"}
+    - {name: "linkedin", link: "https://de.linkedin.com/in/nebojsabozic"}
