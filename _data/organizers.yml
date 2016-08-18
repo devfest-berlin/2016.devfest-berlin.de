@@ -4,3 +4,4 @@
     - {name: "GDG Berlin", description: "One of the first developer groups for everything Google tech - since 2008", link: "http://gdg-berlin.org", imageUrl: "gdg_berlin.png"}
     - {name: "GDG Berlin Android", description: "/The/ monthly meetup for Android in Berlin. Est. 2009.", link: "http://www.meetup.com/GDG-Berlin-Android/", imageUrl: "gdg_berlin_android.png"}
     - {name: "GDG Berlin Golang", description: "Meet other Go developers in Berlin, share your experience and learn something new.", link: "http://www.meetup.com/golang-users-berlin/", imageUrl: "gdg_berlin_golang.png"}
+    - {name: "GDG Berlin Woman Tech Maker", description: "Google's Women Techmakers program provides visibility, community, and resources for women in technology.", link: "https://www.facebook.com/WomenTechmakersBerlinPage", imageUrl: "gdg_berlin_wtm.png"}
