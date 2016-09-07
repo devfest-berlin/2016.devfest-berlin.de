@@ -5,7 +5,7 @@ date:   2016-09-01 23:59:59
 isStaticPost: false
 ---
 
-We hereby open our this years Call for Particpants!
+We hereby open the Call for Participation for the 2016 edition of DevFest Berlin.
 
 Do you want to talk about
 
@@ -20,7 +20,7 @@ Do you want to talk about
 
 then please head over to our [Call for Participation](https://www.papercall.io/devfest-berlin-2016). 
 
-If you are on the other hand not the talking type, but want to support us with more manual labor, please consider filling out our [Call for Volunteers](http://bit.ly/devfest-berlin-volunteers).
+If you are not the talking type, you can help out by signing up as volunteer. Check out the [Call for Volunteers](http://bit.ly/devfest-berlin-volunteers).
 
 See you in November.
 
