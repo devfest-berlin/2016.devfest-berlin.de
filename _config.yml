@@ -65,7 +65,7 @@ eventDate: "11/12 November 2016"
 typeoutTextValues: '"Karlsruhe?", "Hamburg?", "Vienna?", "Malta?", "Zurich?", "Brussels?", "Berlin 2016!"'
 typeoutFallback: "Berlin 2016"
 heroButtons:
-# - {permalink: "/schedule", text: "See the schedule"} 
+ - {permalink: "https://www.papercall.io/cfps/179/submissions/new", text: "Submit your talk or workshop"} 
 # - {permalink: "/#tickets", text: "Redeem ticket code"}
 
 # About Block
