@@ -16,7 +16,7 @@ increase the diversity in technology and science.
 To this end, we have have a couple of ways to support our mission:
 
 - we will have a number of tickets for which only underrepresented groups can apply
-- we will have a mentorship program for new developers
+- we will have a mentorship program for new developers, apply to our mentorship program as a mentee or as a mentor
 
 The mentorship program will pair an awardee with a developer mentor to help
 familiarize the awardee with the conference. We believe creating a dialogue
