@@ -25,3 +25,11 @@ mentor and the awardee and hope everyone will have a great opportunity to learn
 from it.
 
 <img class="img-responsive feature-image" src="{{ site.baseurl }}/img/posts/cod.jpg" style="display:none">
+<div class="text-center">
+  <p>
+    <a class="btn btn-primary waves-effect waves-button waves-light waves-float"
+      href="https://docs.google.com/forms/d/e/1FAIpQLSfAPUf1lxG8b6fb1hc_MqLxGoM2HiTZ0UOXAShg5_PhonQ6mQ/viewform?c=0&w=1">
+      Apply for the mentorship program!
+    </a>
+  </p>
+</div>
