@@ -9,7 +9,7 @@ isStaticPost: true
 
 <div class="card">
 
-<p>If you are reading these rows you are most likely one of our speakers for DevFest Berlin 2015. If you are not then maybe next time you will be :-)</p>
+<p>If you are reading these rows you are most likely one of our speakers for DevFest Berlin 2016. If you are not then maybe next time you will be :-)</p>
 
 <p>As we've received a few similar questions from you we've decided to have this list of questions and answers that could help you to add the final touches to your talk:</p>
 </div>
