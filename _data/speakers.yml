@@ -1,16 +1,16 @@
-## -
-##   id:
-##   name: ""
-##   surname: ""
-##   title: ""
-##   company: ""
-##   bio: ""
-##   thumbnailUrl: ""
-##   rockstar: true
-##   #ribbon:
-##   #  - {abbr: "", title: "", url: ""}
-##   #social:
-##   #  - {name: "google-plus", link: "https://plus.google.com/+"}
-##   #  - {name: "twitter", link: "https://twitter.com/"}
-##   #  - {name: "github", link: "https://github.com/"}
-##   #  - {name: "facebook", link: "https://facebook.com/"}
+# -
+#   id:
+#   name: ""
+#   surname: ""
+#   title: ""
+#   company: ""
+#   bio: ""
+#   thumbnailUrl: ""
+#   rockstar: true
+#   #ribbon:
+#   #  - {abbr: "", title: "", url: ""}
+#   #social:
+#   #  - {name: "google-plus", link: "https://plus.google.com/+"}
+#   #  - {name: "twitter", link: "https://twitter.com/"}
+#   #  - {name: "github", link: "https://github.com/"}
+#   #  - {name: "facebook", link: "https://facebook.com/"}
