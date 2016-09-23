@@ -18,6 +18,8 @@ To this end, we have have a couple of ways to support our mission:
 - we will have a number of tickets for which only underrepresented groups can apply
 - we will have a mentorship program for new developers, apply to our mentorship program as a mentee or as a mentor
 
+###### Mentorship Program
+
 The mentorship program will pair an awardee with a developer mentor to help
 familiarize the awardee with the conference. We believe creating a dialogue
 between developers at different levels will yield a great value both to the
@@ -33,3 +35,21 @@ from it.
     </a>
   </p>
 </div>
+
+###### Diversity Tickets
+
+Our diversity program is aimed to help underrepresented groups in tech to
+attend and lowering the barriers for them. This includes but isn’t limited to:
+women, people of color, LGBTQIA+ people, and disabled people.
+
+You can apply here for a free conference ticket.
+
+<div class="text-center" style="margin-top: 20px">
+  <p>
+    <a class="btn btn-primary waves-effect waves-button waves-light waves-float"
+      href="https://diversitytickets.org/events/47/applications/new?">
+      Apply for a ticket here!
+    </a>
+  </p>
+</div>
+
