@@ -22,8 +22,8 @@
     	sessionIds: [203, 204, 205]
     }
     - {
-        startTime: "15:00",
-        endTime: "18:30",
+        startTime: "19:30",
+        endTime: "22:00",
         sessionIds: [206, 207, 208]
     }
 - 
