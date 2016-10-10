@@ -80,3 +80,15 @@
     - {name: "github", link: "https://github.com/Kursulla"}
     - {name: "twitter", link: "https://twitter.com/Kursulla"}
     - {name: "linkedin", link: "https://de.linkedin.com/in/nebojsabozic"}
+
+-
+  id: 10
+  name: "Karolina"
+  surname: "Kafel"
+  title: "GDG Berlin Android, GDG Berlin Women Tech Makers"
+  thumbnailUrl: KarolinaKafel.jpg
+  team: true
+  social:
+    - {name: "github", link: "https://github.com/iluu"}
+    - {name: "twitter", link: "https://twitter.com/tandaradie"}
+    - {name: "linkedin", link: "https://de.linkedin.com/in/karolina-kafel"}
