@@ -1,336 +1,408 @@
-# 1xx general blocks for all days
+#####################
+# Intros and breaks #
+#####################
+# Day 1 - 1000x
 -
-  id: 101
-  title: "Lunch Break @ Casino"
-  place: "Scout Casino"
-  service: true
-  description: "Make new friends while sharing a meal"
--
-  id: 102
-  title: "Coffee Break @ Scout Café"
-  place: "Scout Café"
-  service: true
-  description: "The best time to talk with speakers and attendees"
-
-# 2xx Workshop day
-
--
-  id: 201
+  id: 10001
   title: "Doors open, Registration, Snacks"
   place: "Atrium"
   service: true
   description: "Come in, get your swag and mingle with others."
 -
-  id: 202
+  id: 10002
   title: "Welcome & Introduction"
   place: "Atrium"
   language: en
   service: true
   description: "Learn what we have prepared for you, where the rooms are and what else is important to know."
--
-  id: 203
-  title: "TBD"
-  description: ""
-  subtype: workshop
-  language: en
-  speakers: []
-  complexity: ""
--
-  id: 204
-  title: "TBD"
-  description: ""
-  subtype: workshop
-  language: en
-  speakers: []
-  complexity: ""
--
-  id: 205
-  title: "TBD"
-  place: ""
-  description: ""
-  subtype: workshop
-  speakers: []
-  language: en
-  complexity: "" # Beginner / Intermediate / Expert
--
-  id: 206
-  title: "TBD"
-  description: ""
-  subtype: workshop
-  language: en
-  speakers: []
-  complexity: ""
--
-  id: 207
-  title: "TBD"
-  description: ""
-  subtype: workshop
-  language: en
-  speakers: []
-  complexity: ""
--
-  id: 208
-  title: "TBD"
-  description: ""
-  subtype: workshop
-  language: en
-  speakers: []
-  complexity: ""
 
-
-# 3xx conference day
-# -
-#   id: 
-#   title: ""
-#   description: ""
-#   subtype: presentation
-#   speakers: []
-#   language: en
-#   complexity: "Intermediate" # Beginner / Intermediate / Expert
-#   video: ""
-#   presentation: ""
-
-# 300 placeholder to be deleted
+# Day 2 - 2000x
 -
-  id: 300
-  title: "&lt;TBA - Review in progress /&gt;"
-  place: ""
-  description: "We're still reviewing proposals for this slot. You can still submit your own talk! <br><br>Read about our <a href='/blog/call-for-participation/'>call for participation here</a>."
--
-  id: 301
+  id: 20001
   title: "WELCOME! Doors open, Registration, Breakfast, Snacks"
   place: "Atrium"
   service: true
   description: ""
 -
-  id: 302
+  id: 20002
   title: "Greeting, Introduction"
   place: "Atrium"
   service: true
   description: ""
 -
-  id: 303
-  title: "TBD"
-  description: ""
-  speakers: []
-  subtype: discussion
-  language: en
+  id: 20003
+  title: "Lunch Break @ Casino"
+  place: "Scout Casino"
+  service: true
+  description: "Make new friends while sharing a meal"
 -
-  id: 304
-  title: "TBD"
-  description: ""
-  speakers: []
-  subtype: discussion
-  language: en
+  id: 20004
+  title: "Coffee Break @ Scout Café"
+  place: "Scout Café"
+  service: true
+  description: "The best time to talk with speakers and attendees"
 -
-  id: 305
-  title: "TBD"
-  description: ""
-  speakers: []
-  subtype: discussion
-  language: en
--
-  id: 306
+  id: 20005
   title: "Wrap-Up"
   place: "Atrium"
   service: true
   description: "Let's meet again and recap a great community conference day!"
 -
-  id: 307
+  id: 20006
   title: "Community Gathering @ c-base space station"
   place: "c-base space station"
   service: true
   description: "Join us for a great night on a crashed space station called c-base - the oldest hackerspace in the world!"
 
+
+#############
+# Workshops #
+#############
+
+# Android - 10xx
 -
-  id: 320
-  title: "TBD"
-  description: ""
+  id: 1000
+  title: "Improve Your App Ratings Using Machine Learning"
+  description: "Why is this relevant for you?<br/>
+                Store ratings are arguably the most crucial marketing tools developers and businesses have to promote their app: They can drive millions of downloads when positive, but also can totally kill the project when negative.<br/>
+                The problem is that it’s very difficult to understand who you should ask for a rating, and when: the wrong user, or the wrong moment, can destroy your chances of getting a 5-stars review. In this workshop, I will show how you can implement a Machine Learning system that will automatically determine both the criteria.
+                What are you going to learn?<br/>
+                I will use Firebase as a middle layer between the clients and the backend, mainly because the overhead required to set it up is almost nil and it poses no limitation for scaling. The Machine Learning algorithm will be coded in Python, and I will be as much specific as possible explaining its underlying functioning: If the system is not a black box to you, you can improve it and customize it based on your needs.<br/>
+                At the end of the workshop, you will be able to implement a system like this on your own app. You will understand how Firebase works, and why it’s the right tool for the job. You will also have a sense of how these problems can be tackled using Machine Learning, and what is the best strategy to do that."
+  subtype: workshop
+  language: en
+  speakers: [001]
+  complexity: "Intermediate"
+-
+  id: 1001
+  title: "Designing & Prototyping Your First Android Wear Application"
+  description: "Wearable devices are one of the most popular things nowadays. Specially, after the Apple Watch, we finally get the whole picture of the entire list of products and their features.<br/>
+                Now, we can talk about how we can design a user experience for this type of devices. Every platform has it’s own design principles and approaches. But, in the core, they all need to follow same core rules. <br/>
+                So, how we combine this core requirements with Google’s Material Design and use them on an Android Wear device? Let’s learn!"
+  subtype: workshop
+  language: en
+  speakers: [002]
+  complexity: "Beginner"
+
+# Web - 11xx
+-
+  id: 1100
+  title: "Building apps in Go for Google App Engine"
+  description: "Google App Engine provides developers with a NoOps solution for hosting their applications and services. <br/>
+                With a configuration file and a few tweaks to the code, a Go package can be deployed to Google’s servers where it’s ready for near infinite scale. <br/>
+                This talk will explain everything you need to know to get started, along with some pragmatic advice, and common gotchas to avoid.<br/>
+                The talk covers how to store and query data using Google Cloud Datastore, memcache, options for authenticating users, scheduling background tasks, building micro-services, and more."
+  subtype: workshop
+  language: en
+  speakers: [004]
+  complexity: "Intermediate"
+-
+  id: 1101
+  title: "What we learnt from Service Workers"
+  description: "Have you heard about Service Workers and thought “They are cool but I probably won’t be able to use them until 2020 anyway”?<br/>
+                Here’s your chance to get a hands-on experience with them in a coding dojo. This way you can make an offline-first web app and see how you can use SW in your production apps. <br/>
+                Coding dojo is way of learning new tech using mob-programming, TDD, and consumer first approach.<br/><br/>
+                You don’t need to have any previous experience, just know a bit of javascript - the other attendees and I will help you with the rest!"
+  subtype: workshop
+  language: en
+  speakers: [005]
+  complexity: "Intermediate"
+
+# Cloud - 12xx
+-
+  id: 1200
+  title: "No one at Google uses MapReduce anymore: Cloud Dataflow explained"
+  place: ""
+  description: "The MapReduce paper, published by Google more than 10 years ago (2004!), sparked the parallel processing revolution and gave birth to countless open source and research projects.<br/>
+                The MapReduce model is now officially obsolete, so the new data processing model we use is the “Dataflow model” and you can see it in action in the hosted Cloud Dataflow service, or its open source Apache Beam implementation.<br/>
+                They allow you to specify both batch and real-time data processing pipelines and have them deployed and maintained automatically – and yes, dataflow can deploy *lots* of machines to handle Google-scale problems."
+  subtype: workshop
+  speakers: [003]
+  language: en
+  complexity: "Intermediate" # Beginner / Intermediate / Expert
+-
+  id: 1201
+  title: "Workshop on Kubernetes"
+  description: "The workshop gives a short introduction into Kubernetes. How to create basic pods, replication controllers, services etc.<br/>
+                It is shown how to deploy microservices in an easy and reproducible way through the cli or the web ui.<br/>
+                The workshop is hands-on and can cover only the basics."
+  subtype: workshop
+  language: en
+  speakers: [006]
+  complexity: "Advanced"
+
+#################
+# Android track #
+#################
+-
+  id: 2001
+  title: "I just hacked your app!"
+  description: "Android security is nowhere near where it should be. I have been able to hack and get sensitive information from a few different apps and I’m just an amateur hacker at best.<br/>
+                Whether it’s because we are exposing information when making HTTP requests to our backend servers or because we’re simply storing things we shouldn't in our apps, it’s easy to forget mobile devices aren’t as safe as we think they are.<br/>
+                In this session we will explore a number of ways an Android app can be exploited and most importantly methods that we can use to avoid these attacks.<br/>
+                We will finish by looking at common techniques that will help you protect sensitive information within your application by adding tampering detection and making sure every external communication request is made securely."
+  speakers: [007]
   subtype: discussion
-  speakers: []
+  complexity: "Intermediate"
   language: en
-  complexity: "" # Beginner / Intermediate / Expert
-  #video: ""
-  #presentation: ""
-
 -
-  id: 321
-  title: "TBD"
-  description: ""
+  id: 2002
+  title: "From mono to clean"
+  description: "Good architecture is crucial for any software and Android apps are not different.<br/>
+                A lot has been said about clean architectures but very few people explained how to evolve into them from a typical monolithic approach. <br/>
+                In this talk, I will guide you through my journey on how I evolved from no architecture at all, with business logic and HTTP requests in the activities, into the clean architecture with RxJava based on Fernando Cejas’ approach.<br/>
+                I will describe the architectural solutions from 4 different apps and the pros and cons of each solution."
+  speakers: [008]
   subtype: discussion
+  complexity: "Intermediate"
+  language: en
+-
+  id: 2003
+  title: "Perception Of Speed"
+  description: "What’s our main complaint when we use an application?<br/><br/>
+                - Speed!<br/><br/>
+                We all expect speed. We want to access everything from the point of our fingers and we want that as fast as possible. When an application is taking to long to open or process some data I bet you also feel the urge to search for another solution - or just to throw your smart phone against the nearest wall in despair.
+                And while you think about this, you’re looking at that never ending spinner… that… it just doesn’t seem to go away.<br/>
+                Google Play and the App Store are full of similar solutions… Why should I bother to keep using this one?<br/>
+                We can make all sort of optimisations on our code - and yet, sometimes, we can’t really make that process as fast as we wanted.
+                There are always some constraints that we can’t really avoid - device limitations, network, server, etc. but we can create the illusion of speed - a visual aid that keeps the user busy while, on the background, we are processing his action.<br/>
+                Yes. Time is relative and we want the users to feel that every action is as responsible as possible."
+  speakers: [009]
+  subtype: discussion
+  language: en
+  complexity: "Beginner"
+-
+  id: 2004
+  title: "Taking care of your Android UI tests"
+  description: "Most Android UI testing talks focus on how Espresso works and how to start writing simple tests.<br/>
+                This is fine for a simple app but maintaining and expanding those tests gets harder as the app grows. This talk will focus on writing complex tests scenarios while making sure we keep them maintainable, expandable and readable.<br/><br/>
+                I’ll use a released app we developed as an example. This will involve multi-screen scenarios, handling asynchronous operations, providing a fake environment as well as some common and less common Espresso gotchas."
+  subtype: discussion
+  speakers: [010]
+  language: en
+  complexity: "Intermediate" # Beginner / Intermediate / Expert
+-
+  id: 2005
+  title: "Launch smarter on Google Play"
+  description: "Google Play helps developers build great apps and games, and grow a large user base.<br/> Set your app up for success using iteration and experimentation, and responding to user feedback.<br/>
+                Adapt your app to different markets through experiments.<br/> Learn about increasing your app rating, gaining insights from user reviews, and testing your app easily across multiple devices."
+  subtype: discussion
+  speakers: [011]
+  language: en
+  complexity: "Beginner" # Beginner / Intermediate / Expert
+-
+  id: 2006
+  title: "The Next Step for Reactive Android Programming"
+  description: "The way we develop Android applications has dramatically changed in the last few years. One of the biggest aspects of this change is the adoption of the reactive approach to programming.
+                Once a prominent part of the Android landscape, we now almost exclusively see Threads and AsyncTasks in legacy code. Reactive approaches like
+                EventBus, Agera and in particular, RxJava, have taken their place and have reshaped the way we write code.<br/>
+                But they are also evolving: RxJava 2 is on our doorstep.<br/>
+                I will talk about my experience of migrating a highly reactive application, used by millions of users, from RxJava 1.x to 2.x.<br/>
+                Firstly, I will share the advantages and disadvantages of moving to this new milestone release, so you can decide if it’s worth to migrate your application.<br/>
+                I will then focus on possible migration approaches; which strategies worked for me and which did not.<br/>
+                Finally, we can discuss the frustrations that you need to prepare yourself for and how you can avoid them."
+  subtype: presentation
+  speakers: [012]
+  language: en
+  complexity: "Intermediate" # Beginner / Intermediate / Expert
+-
+  id: 2007
+  title: "Open-source licenses and distribution"
+  description: "Intro to open source licenses<br/>
+                Modern software are built from open source projects. All Android apps use open-source code. As developer, open source save time to focus on the core of your apps.
+                As author of an open source project, licences give control over your work. We are developers not lawyers, but let’s review the major licenses.<br/>
+                Generate open source licenses page<br/>
+                Most of the open source licenses oblige to credit the author of the project. A full “licenses” page in a commercial app will prevent getting into legal troubles.
+                In all successful commercial apps, you will find this page if you know where to look. I authored an elegant library to credit the open source projects used in a commercial Android app.
+                The licenses page of other apps will also be reviewed. Some advanced topics of RecyclerView will be discussed in order to show this project was done.
+                Then I will demo my project http://bit.ly/2d10Wm1 and talk about my plans on how to automate the code generation.<br/>
+                Some tips on open sourcing<br/>
+                Most of us, know how to write apps, I will also share what I learned on publishing a library ( export on Bintray jcenter, travis CI, github’s README …)"
+  subtype: presentation
+  speakers: [013]
+  language: en
+  complexity: "Beginner" # Beginner / Intermediate / Expert
+-
+  id: 2008
+  title: "App engagement is the new black "
+  description: "As the app marketplace constantly becomes more competitive, developer success increasingly depends on retaining users in apps they love.<br/>
+                Find out which tactics and tools can help you analyse improve user engagement and retention in your app."
+  subtype: presentation
+  speakers: [011]
+  language: en
+  complexity: "Beginner" # Beginner / Intermediate / Expert
+-
+  id: 2010
+  title: "Automate the Mobile"
+  description: "If you are starting serious with Mobile development you need to have a plan! Let’s discuss what components you can set up in your Mobile DevOps landscape, how an application would travel from one state to another, and what do you need to to setup it. In the talk we will talk about CI, automation testing, provisioning, automatic PlayStore deployments, device labs and more."
+  subtype: presentation
+  speakers: [021]
+  language: en
+  complexity: "Intermediate" # Beginner / Intermediate / Expert
+-
+  id: 2011
+  title: "Modular Android UI"
+  description: "Modular Android UI
+                Discussing how to build complex UIs on Android is a very wide topic. I will try to cover some of the things you can do to make your life easier. This talk is divided into 3 segments:
+                Architecture (options, design patterns)
+                Organizing Android components
+                Making UI modular
+                Organizing things like this helps a lot with scaling the app from a few simple fragments to tens of different, module- or feature-limited, standalone app screens.
+                Architecture
+                This part of the talk covers some basic design patterns you can use to build your app, introduction to my favorite - Model:View:Presenter (MVP), and differences between the Passive View and the Supervising Controller variants of MVP. I will include some tips as well on how to map UI states to data states and reuse the code across the app.
+                Android components
+                The Android framework (including the UI toolkit) already provides basic data structures, UI elements and life-cycle events. As you are organizing and structuring other parts of your app, you will likely want to get the UI to work for you, not the other way around. This part of the talk covers some ideas on how to organize code and make your life easier.
+                Modular UI
+                Finally, the last step. When you have your structure set up and your data structures ready, it’s time to glue it all together - but! You must keep in mind that your app is scaling and becoming bigger, so you want to make it modular. This part covers some of the techniques I came up with over the years, helping me to properly disable/enable UI features, hide/show elements and even re-work the whole screens or even navigation models depending on external factors."
+  subtype: presentation
+  speakers: [022]
+  language: en
+  complexity: "Intermediate" # Beginner / Intermediate / Expert
+##############
+#  Web track #
+##############
+-
+  id: 2100
+  title: "Writing Beautiful Packages in Go"
+  description: "Packages are the building blocks of large projects in Go.<br/> Whether intended for internal use, or destined for open-source stardom, writing good packages with clean and clear APIs will greatly increase the chance that the code is used and reused.<br/>
+                This talk will explore best practices, goals, and helpful tips and tricks that help you to write beautiful packages."
+  subtype: presentation
+  speakers: [004]
+  language: en
+  complexity: "Beginner" # Beginner / Intermediate / Expert
+-
+  id: 2101
+  title: "Responsive to 3 Dimensions: seamless Virtual Reality on the Web"
+  description: "WebVR is the JavaScript API for browser-based virtual reality.<br/>
+                Using it directly, or via frameworks like A-Frame, web developers can quickly and easily develop VR experiences for both PC and mobile-based headsets.<br/>
+                Not just for full-blown games and apps, VR is also set to become a seamless part of web browsing experiences. Viewing a page on your mobile phone and it supports VR?<br/>
+                Place it in a headset and go! This talk will share how you can extend your web apps out into the third dimension, using WebVR and A-Frame."
+  subtype: presentation
+  speakers: [014]
+  language: en
+  complexity: "Beginner" # Beginner / Intermediate / Expert
+-
+  id: 2102
+  title: "AMP tries to fix the web. What can we learn from it?"
+  description: ""
+  subtype: presentation
+  speakers: [015]
+  language: en
+  complexity: "Beginner" # Beginner / Intermediate / Expert
+-
+  id: 2103
+  title: "Scaling Massive, Real-Time Data Pipelines with Go"
+  subtype: presentation
+  description: "Passing 10,000 messages a second between apps and data stores is tough. Add on filtering and parsing and you’re bound to run into problems.<br/>
+                At Pivotal Cloud Foundry, we have to handle several factors of that load each day, which means our programs need to be highly concurrent and very careful with state.<br/>
+                Let’s look at some patterns and best practices that can be taken advantage of in order to handle this load."
+  speakers: [016]
+  language: en
+  complexity: "Beginner" # Beginner / Intermediate / Expert
+-
+  id: 2104
+  title: "214"
+  description: ""
+  subtype: presentation
   speakers: []
   language: en
   complexity: "" # Beginner / Intermediate / Expert
-  #video: ""
-  #presentation: ""
+-
+  id: 2105
+  title: "215"
+  description: ""
+  subtype: presentation
+  speakers: []
+  language: en
+  complexity: "" # Beginner / Intermediate / Expert
+-
+  id: 2106
+  title: "216"
+  description: ""
+  subtype: presentation
+  speakers: []
+  language: en
+  complexity: "" # Beginner / Intermediate / Expert
 
+###############
+# Cloud track #
+###############
 -
-  id: 322
-  title: "TBD"
-  description: ""
+  id: 2200
+  title: "Tensorflow and deep learning - without at PhD"
+  description: "Google has recently open-sourced its framework for machine learning and neural networks called Tensorflow.<br/>
+                With this new tool, deep machine learning transitions from an area of research into mainstream software engineering. In this session, we will teach you how to choose the right neural network for your problem and how to make it behave.<br/>
+                Familiarity with differential equations is no longer required.<br/> Instead, a couple of lines of Tensorflow Python, and a bag of \"tricks of the trade\" will do the job.<br/><br/>
+                No previous Python knowledge required."
   subtype: presentation
-  speakers: []
+  speakers: [003]
   language: en
-  complexity: "" # Beginner / Intermediate / Expert
-  #video: ""
-  #presentation: ""
-
+  complexity: "Beginner" # Beginner / Intermediate / Expert
 -
-  id: 323
-  title: "TBD"
-  description: ""
+  id: 2201
+  title: "One year of shaping applications for Containers, Kubernetes, CoreOS and Co"
+  description: "Following a very strict approach, separating persistent and stateless applications, running everything in small units orchestrated by Kubernetes we could create descriptions of environments very rapidly,
+                deploying complex environments with a single command. Examples in Java, Python and Ruby could be shown. Security has been addressed to pass an extensive security audit.<br/>
+                The talk touches also operational challenges as implementing a deployment pipeline, logging under load, monitoring, distribution of passwords and configurations as limits to the containers resource management."
   subtype: presentation
-  speakers: []
+  speakers: [006]
   language: en
-  complexity: "" # Beginner / Intermediate / Expert
-  #video: ""
-  #presentation: ""
-
+  complexity: "Beginner" # Beginner / Intermediate / Expert
 -
-  id: 324
-  title: "TBD"
-  description: ""
+  id: 2202
+  title: "Kubernetes and Prometheus — cloud natives united"
+  description: "The container orchestration system Kubernetes and the monitoring and alerting systemPrometheus were created independently but share spiritual ancestry far beyond the simple fact that they are both implemented in Go.
+                The twins, separated at birth, are now finally reunified in theCloud Native Computing Foundation (CNCF), which has accepted Prometheus as their second hosted project after Kubernetes.
+                Each project alone is of great importance for “born in the cloud” applications. However, it gets really interesting when you combine the two.<br/><br/>
+                The speaker had an important role in the upbringing of Prometheus at SoundCloud. With more than seven years at Google under his belt, he is also quite familiar with the technologies that served as an inspiration for both,
+                Kubernetes and Prometheus. He will tell you how their beautiful friendship could happen despite their independent development, and he will give you the top five reasons why the two play so nicely together."
   subtype: presentation
-  speakers: []
+  speakers: [017]
   language: en
-  complexity: "" # Beginner / Intermediate / Expert
-  #video: ""
-  #presentation: ""
+  complexity: "Beginner" # Beginner / Intermediate / Expert
 -
-  id: 325
-  title: "TBD"
-  description: ""
+  id: 2203
+  title: "Behaviour driven OOP using Traits"
+  description: "We all build software, and we see ourselves using OOP in some manner or the other. Inheritance is one of the core properties of OOP. What are the common variants of Inheritance? Single, multiple, and mixin based inheritance.<br/>
+                All of these suffer from conceptual and practical limitations. Ir-respective of the choice of language, our design ends up the same way. Usually a mesh of interconnected types.<br/>
+                As the size of the project goes and we introduce more types, the complexity and cost of testing that system keeps increasing. The Internet is full of memes on that. We go about identifying and illustrating these problems.<br/>
+                We then talk about traits. A trait is essentially a group of pure methods that compose classes and is a primitive unit of code reuse. In this model, classes are composed
+                from a set of traits by specifying glue code that connects the traits together and accesses the necessary state. We demonstrate how traits overcome these problems, and help you build simpler and reusable code.<br/>
+                This talk is based on a research paper published in “Traits: Composable Units of Behaviour”.<br/> The talk covers code samples of such trait based implementations in Ruby, Python and Golang."
   subtype: presentation
-  speakers: []
+  speakers: [018]
   language: en
-  complexity: "" # Beginner / Intermediate / Expert
-  #video: ""
-  #presentation: ""
+  complexity: "Intermediate" # Beginner / Intermediate / Expert
+  presentation: "http://www.ptidej.net/courses/ift6251/fall06/presentations/061122/061122.doc.pdf"
 -
-  id: 326
-  title: "TBD"
-  description: ""
+  id: 2204
+  title: "Immutability: from code to infrastructure, the way of scalability"
+  description: "The all functional programming world, Docker, Clever Cloud, microservice architecture, logs append only DB…<br/>
+                All of this rely on the immutability at some point: infrastructure immutability, data immutability, append only. This is the way we now build some of the best scalable applications and infrastructure.
+                The talk is made to understand why Immutability rules the scalability and why it’s important."
   subtype: presentation
-  speakers: []
+  speakers: [019]
   language: en
-  complexity: "" # Beginner / Intermediate / Expert
-  #video: ""
-  #presentation: ""
+  complexity: "Beginner" # Beginner / Intermediate / Expert
 -
-  id: 327
-  title: "TBD"
-  description: ""
+  id: 2205
+  title: "Design patterns in Microservices architectures using Gilmour"
+  description: "Microservices have rapidly evolved over the years as a popular way of developing applications, but they bring their own set of challenges in the form of what design pattern to use, monitoring,logging, error detection, scaling and service discovery. <br/>
+                We will explore the common characteristics and design patterns to be considered while dealing with service oriented architectures.
+                We talk about Signal-Slots, RPC architectures, monitoring, log and error handling, function point scaling, and common unix philosophies that help you design scalable distributes systems.<br/>
+                Diving into code samples, demos and production deployments; I would like to showcase Gilmour (http://github.com/gilmour-libs): a cross language library we have authored for effective
+                micro services that exchange data over non-HTTP transports."
   subtype: presentation
-  speakers: []
+  speakers: [018]
   language: en
-  complexity: "" # Beginner / Intermediate / Expert
-  #video: ""
-  #presentation: ""
+  complexity: "Intermediate" # Beginner / Intermediate / Expert
 -
-  id: 328
-  title: "TBD"
+  id: 2206
+  title: "Whats New with Firebase"
+  description: "After this years Google I/O, Firebase was upgraded and become an even more important role in the range of Google services available. Now properly integrated with Google Services, Firebase offers developers much more than than just a database for “personal” projects.
+                The new updated Firebase however has left many developers a bit puzzled on how to properly include Firebase in their projects, how it integrates into Google Services, and how they can make use of the new features available.
+                If you’ve used Firebase already, you might be aware of how to integrate and make use of it in your applications but if not prior knowledge isn’t necessary. In this talk I’d like to share with you how migrate your existing code to the updated versions, what new features you’ll be able to take advantage of, and any pitfalls that you can hopefully avoid!"
   subtype: presentation
-  description: ""
-  speakers: []
+  speakers: [020]
   language: en
-  complexity: "" # Beginner / Intermediate / Expert
-  #video: ""
-  #presentation: ""
--
-  id: 329
-  title: "TBD"
-  description: ""
-  subtype: presentation
-  speakers: []
-  language: en
-  complexity: "" # Beginner / Intermediate / Expert
-  #video: ""
-  #presentation: ""
-
--
-  id: 330
-  title: "TBD"
-  description: ""
-  subtype: presentation
-  speakers: []
-  language: en
-  complexity: "" # Beginner / Intermediate / Expert
-  #video: ""
-  #presentation: ""
-
--
-  id: 331
-  title: "TBD"
-  description: ""
-  subtype: presentation
-  speakers: []
-  language: en
-  complexity: "" # Beginner / Intermediate / Expert
-  #video: ""
-  #presentation: ""
-
--
-  id: 332
-  title: "TBD"
-  description: ""
-  subtype: presentation
-  speakers: []
-  language: en
-  complexity: "" # Beginner / Intermediate / Expert
-  #video: ""
-  #presentation: ""
-
--
-  id: 333
-  title: "TBD"
-  description: ""
-  subtype: presentation
-  speakers: []
-  language: en
-  complexity: "" # Beginner / Intermediate / Expert
-  #video: ""
-  #presentation: ""
-
--
-  id: 334
-  title: "TBD"
-  description: ""
-  subtype: presentation
-  speakers: []
-  language: en
-  complexity: "" # Beginner / Intermediate / Expert
-  #video: ""
-  #presentation: ""
-
--
-  id: 335
-  title: "TBD"
-  description: ""
-  subtype: presentation
-  speakers: []
-  language: en
-  complexity: "" # Beginner / Intermediate / Expert
-  #video: ""
-  #presentation: ""
-
--
-  id: 336
-  title: "TBD"
-  description: ""
-  subtype: presentation
-  speakers: []
-  language: en
-  complexity: "" # Beginner / Intermediate / Expert
-  #video: ""
-  #presentation: ""
-
--
-  id: 337
-  title: "TBD"
-  description: ""
-  subtype: presentation
-  speakers: []
-  language: en
-  complexity: "" # Beginner / Intermediate / Expert
-  #video: ""
-  #presentation: ""
+  complexity: "Intermediate" # Beginner / Intermediate / Expert
