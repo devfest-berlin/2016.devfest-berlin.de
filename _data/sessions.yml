@@ -1,6 +1,14 @@
+-
+  id: 9999
+  title: "TBD"
+  place: ""
+  description: "TBD"
+
+
 #####################
 # Intros and breaks #
 #####################
+
 # Day 1 - 1000x
 -
   id: 10001
@@ -52,7 +60,7 @@
   title: "Community Gathering @ c-base space station"
   place: "c-base space station"
   service: true
-  description: "Join us for a great night on a crashed space station called c-base - the oldest hackerspace in the world!"
+  description: "Join us for a great night on a crashed space station called c-base - the oldest hacker space in the world!"
 
 
 #############
@@ -87,7 +95,7 @@
 # Web - 11xx
 -
   id: 1100
-  title: "Building apps in Go for Google App Engine"
+  title: "QUIT Building apps in Go for Google App Engine"
   description: "Google App Engine provides developers with a NoOps solution for hosting their applications and services. <br/>
                 With a configuration file and a few tweaks to the code, a Go package can be deployed to Google’s servers where it’s ready for near infinite scale. <br/>
                 This talk will explain everything you need to know to get started, along with some pragmatic advice, and common gotchas to avoid.<br/>
@@ -131,6 +139,7 @@
   speakers: [006]
   complexity: "Advanced"
 
+
 #################
 # Android track #
 #################
@@ -138,7 +147,7 @@
   id: 2001
   title: "I just hacked your app!"
   description: "Android security is nowhere near where it should be. I have been able to hack and get sensitive information from a few different apps and I’m just an amateur hacker at best.<br/>
-                Whether it’s because we are exposing information when making HTTP requests to our backend servers or because we’re simply storing things we shouldn't in our apps, it’s easy to forget mobile devices aren’t as safe as we think they are.<br/>
+                Whether it’s because we are exposing information when making HTTP requests to our backend servers or because we’re simply storing things we shouldn't in our apps, it’s easy to forget mobile devices aren't as safe as we think they are.<br/>
                 In this session we will explore a number of ways an Android app can be exploited and most importantly methods that we can use to avoid these attacks.<br/>
                 We will finish by looking at common techniques that will help you protect sensitive information within your application by adding tampering detection and making sure every external communication request is made securely."
   speakers: [007]
@@ -150,7 +159,7 @@
   title: "From mono to clean"
   description: "Good architecture is crucial for any software and Android apps are not different.<br/>
                 A lot has been said about clean architectures but very few people explained how to evolve into them from a typical monolithic approach. <br/>
-                In this talk, I will guide you through my journey on how I evolved from no architecture at all, with business logic and HTTP requests in the activities, into the clean architecture with RxJava based on Fernando Cejas’ approach.<br/>
+                In this talk, I will guide you through my journey on how I evolved from no architecture at all, with business logic and HTTP requests in the activities, into the clean architecture with RxJava based on Fernando Cejas approach.<br/>
                 I will describe the architectural solutions from 4 different apps and the pros and cons of each solution."
   speakers: [008]
   subtype: discussion
@@ -158,11 +167,11 @@
   language: en
 -
   id: 2003
-  title: "Perception Of Speed"
+  title: "? Perception Of Speed"
   description: "What’s our main complaint when we use an application?<br/><br/>
                 - Speed!<br/><br/>
                 We all expect speed. We want to access everything from the point of our fingers and we want that as fast as possible. When an application is taking to long to open or process some data I bet you also feel the urge to search for another solution - or just to throw your smart phone against the nearest wall in despair.
-                And while you think about this, you’re looking at that never ending spinner… that… it just doesn’t seem to go away.<br/>
+                And while you think about this, you’re looking at that never ending spinner… that… it just doesn't seem to go away.<br/>
                 Google Play and the App Store are full of similar solutions… Why should I bother to keep using this one?<br/>
                 We can make all sort of optimisations on our code - and yet, sometimes, we can’t really make that process as fast as we wanted.
                 There are always some constraints that we can’t really avoid - device limitations, network, server, etc. but we can create the illusion of speed - a visual aid that keeps the user busy while, on the background, we are processing his action.<br/>
@@ -217,7 +226,7 @@
                 The licenses page of other apps will also be reviewed. Some advanced topics of RecyclerView will be discussed in order to show this project was done.
                 Then I will demo my project http://bit.ly/2d10Wm1 and talk about my plans on how to automate the code generation.<br/>
                 Some tips on open sourcing<br/>
-                Most of us, know how to write apps, I will also share what I learned on publishing a library ( export on Bintray jcenter, travis CI, github’s README …)"
+                Most of us, know how to write apps, I will also share what I learned on publishing a library ( export on Bintray jcenter, travis CI, Github's README)"
   subtype: presentation
   speakers: [013]
   language: en
@@ -233,7 +242,7 @@
   complexity: "Beginner" # Beginner / Intermediate / Expert
 -
   id: 2010
-  title: "Automate the Mobile"
+  title: "QUIT Automate the Mobile"
   description: "If you are starting serious with Mobile development you need to have a plan! Let’s discuss what components you can set up in your Mobile DevOps landscape, how an application would travel from one state to another, and what do you need to to setup it. In the talk we will talk about CI, automation testing, provisioning, automatic PlayStore deployments, device labs and more."
   subtype: presentation
   speakers: [021]
@@ -258,6 +267,48 @@
   speakers: [022]
   language: en
   complexity: "Intermediate" # Beginner / Intermediate / Expert
+-
+  id: 2012
+  title: "Modular Android UI"
+  description: "Modular Android UI
+                Discussing how to build complex UIs on Android is a very wide topic. I will try to cover some of the things you can do to make your life easier. This talk is divided into 3 segments:
+                Architecture (options, design patterns)
+                Organizing Android components
+                Making UI modular
+                Organizing things like this helps a lot with scaling the app from a few simple fragments to tens of different, module- or feature-limited, standalone app screens.
+                Architecture
+                This part of the talk covers some basic design patterns you can use to build your app, introduction to my favorite - Model:View:Presenter (MVP), and differences between the Passive View and the Supervising Controller variants of MVP. I will include some tips as well on how to map UI states to data states and reuse the code across the app.
+                Android components
+                The Android framework (including the UI toolkit) already provides basic data structures, UI elements and life-cycle events. As you are organizing and structuring other parts of your app, you will likely want to get the UI to work for you, not the other way around. This part of the talk covers some ideas on how to organize code and make your life easier.
+                Modular UI
+                Finally, the last step. When you have your structure set up and your data structures ready, it’s time to glue it all together - but! You must keep in mind that your app is scaling and becoming bigger, so you want to make it modular. This part covers some of the techniques I came up with over the years, helping me to properly disable/enable UI features, hide/show elements and even re-work the whole screens or even navigation models depending on external factors."
+  subtype: presentation
+  speakers: [022]
+  language: en
+  complexity: "Intermediate" # Beginner / Intermediate / Expert
+-
+  id: 2013
+  title: "Optimising The Performance Of VectorDrawables"
+  description: "Support for SVG finally arrived to Android in the form of vector drawables.
+                You have replaced (or you are planning to replace) absolutely all your PNGs with VectorDrawables and your APK is smaller. But now your app feels slower, the render time of your views has increased and you don’t know why! In this talk you will learn what VectorDrawables are and how they work under the hood.
+                <br/>This will help you understand why in some situations two versions of the asset is better than one. In the VectorDrawable documentation there’s a recommendation easy to miss: the max size should be 200x200dp.
+                <br/><br/>I will show you why this is, what effect can big resources have on your app’s performance but also, what are the possible solutions for this. Have you ever tried referencing resources in your VectorDrawable’s XML and failed? The talk will explain why and how to solve this."
+  subtype: presentation
+  speakers: [023]
+  language: en
+  complexity: "Beginner" # Beginner / Intermediate / Expert
+-
+  id: 2014
+  title: "REST APIs with a contract-first approach"
+  description: "Most of Android apps are talking to a some kind of REST API services. Libraries like Retrofit make it quite easy to implement decent code talking to a API.
+  Another libraries like Butterknife, @AutoValue or POJO generators are saving us from a writing of boilerplate code. <br/>
+  Lets make a next step and combine these together with a contract-first approach. In this talk we will have a look what contract-first approach is, on possibilities how to define API interfaces, endpoints, data structures (contract), how to generate code and we will share experiences from a real life project."
+  subtype: presentation
+  speakers: [025]
+  language: en
+  complexity: "Intermediate" # Beginner / Intermediate / Expert
+
+
 ##############
 #  Web track #
 ##############
@@ -291,7 +342,7 @@
   complexity: "Beginner" # Beginner / Intermediate / Expert
 -
   id: 2103
-  title: "Scaling Massive, Real-Time Data Pipelines with Go"
+  title: "QUIT Scaling Massive, Real-Time Data Pipelines with Go"
   subtype: presentation
   description: "Passing 10,000 messages a second between apps and data stores is tough. Add on filtering and parsing and you’re bound to run into problems.<br/>
                 At Pivotal Cloud Foundry, we have to handle several factors of that load each day, which means our programs need to be highly concurrent and very careful with state.<br/>
@@ -323,6 +374,7 @@
   speakers: []
   language: en
   complexity: "" # Beginner / Intermediate / Expert
+
 
 ###############
 # Cloud track #
@@ -376,7 +428,7 @@
   presentation: "http://www.ptidej.net/courses/ift6251/fall06/presentations/061122/061122.doc.pdf"
 -
   id: 2204
-  title: "Immutability: from code to infrastructure, the way of scalability"
+  title: "? Immutability: from code to infrastructure, the way of scalability"
   description: "The all functional programming world, Docker, Clever Cloud, microservice architecture, logs append only DB…<br/>
                 All of this rely on the immutability at some point: infrastructure immutability, data immutability, append only. This is the way we now build some of the best scalable applications and infrastructure.
                 The talk is made to understand why Immutability rules the scalability and why it’s important."
@@ -406,3 +458,14 @@
   speakers: [020]
   language: en
   complexity: "Intermediate" # Beginner / Intermediate / Expert
+
+-
+  id: 2207
+  title: "Exploring the new Google Cloud Endpoints"
+  description: "The Google Cloud Platform team recently announced the release of a new version of Google Cloud Endpoints, a set of tools for implementing and managing APIs based on Google’s own internal experiences and best practices.
+              <br/>This new release not only keeps building on the most successful and useful features from the previous version but also offers more flexibility of deployment, interoperability with industry standards among other benefits.
+              <br/>During this talk you’ll see the main changes and hopefully it’ll get you excited to use them in your next project."
+  subtype: presentation
+  speakers: [026]
+  language: en
+  complexity: "Beginner" # Beginner / Intermediate / Expert

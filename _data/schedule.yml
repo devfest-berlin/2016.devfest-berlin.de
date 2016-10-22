@@ -19,12 +19,12 @@
     - {
     	startTime: "15:00",
     	endTime: "18:30",
-    	sessionIds: [1000, 1100, 1200]
+    	sessionIds: [1000, 1101, 1200]
     }
     - {
         startTime: "19:30",
         endTime: "22:00",
-        sessionIds: [1001, 1101, 1201]
+        sessionIds: [1001, 9999, 1201]
     }
 - 
   date: "2016-11-12"
@@ -47,17 +47,17 @@
     - {
         startTime: "10:00",
         endTime: "10:45",
-        sessionIds: [2001, 2100, 2200]
+        sessionIds: [2001, 2014, 2200]
     }
     - {
         startTime: "11:00",
         endTime: "11:45",
-        sessionIds: [2002, 2101, 2201]
+        sessionIds: [2002, 2100, 2201]
     }
     - {
         startTime: "12:00",
         endTime: "12:45",
-        sessionIds: [2003, 2102, 2202]
+        sessionIds: [2003, 2101, 2202]
     }
     - {
         startTime: "13:00",
@@ -67,7 +67,7 @@
     - {
         startTime: "14:00",
         endTime: "14:45",
-        sessionIds: [2004, 2103, 2203]
+        sessionIds: [2004, 2102, 2203]
     }
 -
   tracks:
@@ -78,7 +78,7 @@
     - {
         startTime: "15:00",
         endTime: "15:45",
-        sessionIds: [2005, 2010, 2204]
+        sessionIds: [2005, 9999, 2204]
     }
     - {
         startTime: "16:00",

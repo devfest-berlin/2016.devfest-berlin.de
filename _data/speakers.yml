@@ -18,10 +18,15 @@
    id: 001
    name: "Gianluca"
    surname: "Segato"
-   title: ""
-   company: ""
-   bio: ""
-   thumbnailUrl: ""
+   title: "Founder and Lead Android Developer"
+   company: "Uniwhere"
+   bio: "Gianluca is the founder and the lead Android developer of Uniwhere, a Berlin-based startup. He graduated in Economics, he has been a theatre actor and he thinks that code is like poetry: If you have it inside, it’s the only way you know to express yourself."
+   thumbnailUrl: "gianluca_segato.jpg"
+   social:
+        - {name: "google-plus", link: "https://plus.google.com/+"}
+        - {name: "twitter", link: "https://twitter.com/giansegato"}
+        - {name: "linkedin", link: "http://www.linkedin.com/in/giansegato"}
+        - {name: "site", link: "http://gian.lu/"}
 
   -
    id: 002
@@ -29,8 +34,13 @@
    surname: "Yıldırım"
    title: ""
    company: ""
-   bio: ""
+   bio: "Caner is a GDE on UX/UI who is also a technology geek. Mainly focused on the design and marketing of mobile applications. Passionate about good UX, IoT and Android. He works at InnovationBox, a design agency in Istanbul making and creating apps that users love. Caner has been an organiser of GDG Istanbul since 2013, organising, participating, and speaking at events."
    thumbnailUrl: ""
+   social:
+        - {name: "google-plus", link: "https://plus.google.com/+"}
+        - {name: "twitter", link: "https://twitter.com/"}
+        - {name: "github", link: "https://github.com/"}
+        - {name: "facebook", link: "https://facebook.com/"}
 
   -
    id: 003
@@ -40,51 +50,82 @@
    company: ""
    bio: ""
    thumbnailUrl: ""
+   social:
+        - {name: "google-plus", link: "https://plus.google.com/+"}
+        - {name: "twitter", link: "https://twitter.com/"}
+        - {name: "github", link: "https://github.com/"}
+        - {name: "facebook", link: "https://facebook.com/"}
 
   -
    id: 004
    name: "Mat"
    surname: "Ryer"
-   title: ""
-   company: ""
-   bio: ""
-   thumbnailUrl: ""
+   title: "Chief Architect"
+   company: "GrayMeta, Inc."
+   bio: "Programming since age 6 (Mat would type BASIC code out from computer magazines with his father to make little programs and games), Mat has always had a keen obsession with programming. When he was 18, he turned his hobby into a job working for an Internet service provider in a small town near Nottingham in England.
+         <br/><br/>
+         After founding a small technology company, Mat worked on many disparate projects in London and around the world and became an avid contributor to the open source community. He sold his company to Front Porch Digital in 2011 and moved to Boulder, Colorado for two years until the company was sold to Oracle. While blogging about technology, in particular a new language called Go that came out of Google, Mat was asked to author Go Programming Blueprints (http://www.amazon.com/Go-Programming-Blueprints-Development-Challenges/dp/1783988029) which has received a great reception.
+         <br/><br/>
+         Today he works for GrayMeta, employing his Go expertise in this exciting California based big meta-data company. He spoke at Gophercon in April 2014 (lightening talk) in Denver, Colorado and the UK’s Go conference in August 2015 and 2016 as well as infoShare in Poland and ProgsCon in London. He founded Testify and Silk, as well as some less successful projects."
+   thumbnailUrl: "mat_ryer.jpeg"
+   social:
+        - {name: "twitter", link: "https://twitter.com/matryer"}
+        - {name: "github", link: "https://github.com/matryer"}
+        - {name: "site", link: "http://matryer.com"}
 
   -
    id: 005
    name: "Anna"
    surname: "Doubkova"
-   title: ""
-   company: ""
-   bio: ""
-   thumbnailUrl: ""
+   title: "Software Engineer"
+   company: "Red Badger"
+   bio: "I’m a software engineer at Red Badger, a London-based consultancy. We love new tech combined with reasonable engineering principles to create cutting-edge, yet reliable applications. Having been a web “developer” since I was 13, I’ve always liked using the newest available tools on the web. Web Sockets, Web Components, Service Workers, React, GraphQL - you name it. I’m keen on overlap of technology and humanities, on the “whys” and not only “hows”. Last but not least, I enjoy meeting developers from all around the world - so come and say hi when you have a moment!"
+   thumbnailUrl: "anna_doubkova.jpg"
+   social:
+        - {name: "twitter", link: "https://twitter.com/lithinn"}
+        - {name: "github", link: "https://github.com/lithin"}
+        - {name: "linkedin", link: "https://www.linkedin.com/in/annadoubkova/en"}
 
   -
    id: 006
    name: "Thomas"
    surname: "Fricke"
-   title: ""
-   company: ""
-   bio: ""
-   thumbnailUrl: ""
+   title: "CTO"
+   company: "Endocode"
+   bio: "Thomas Fricke is the CTO of Endocode and a cloud architect. He likes to work with scaling applications, specially with distributed databases. He has worked as a development engineer, system, software and cloud architect for many years. Current topics are large scale system automation for cloud native applications."
+   thumbnailUrl: "thomas_fricke.png"
+   social:
+        - {name: "google-plus", link: "https://plus.google.com/+ThomasFricke"}
+        - {name: "twitter", link: "https://twitter.com/endocode"}
+        - {name: "github", link: "https://github.com/endocode"}
+        - {name: "linkedin", link: "https://de.linkedin.com/in/thomas-fricke-9840a21"}
+#        - {name: "xing", link: "https://www.xing.com/profile/Thomas_Fricke4"}
 
   -
    id: 007
    name: "Marcos"
    surname: "Placona"
-   title: ""
-   company: ""
-   bio: ""
-   thumbnailUrl: ""
+   title: "Developer evangelist"
+   company: "Twilio"
+   bio: "Marcos Placona is a developer evangelist at Twilio, a company founded to disrupt telecommunications.<br/>He spends most of his time working with Android and .Net open source projects while equipping and inspiring developers to build killer applications. He’s also a great API enthusiast and believes they bring peace to the Software Engineering world."
+   thumbnailUrl: "marcos_placona.png"
+   social:
+        - {name: "google-plus", link: "https://plus.google.com/+MarcosPlacona"}
+        - {name: "twitter", link: "https://twitter.com/marcos_placona"}
+        - {name: "github", link: "https://github.com/mplacona"}
 
   -
    id: 008
    name: "Filipe"
    surname: "Mendes"
-   title: ""
+   title: "Android developer"
    company: ""
-   bio: ""
-   thumbnailUrl: ""
+   bio: "As an Mobile Software Engineer, Filipe believes that every application should be as simple and as easy to use as possible. Filipe is a freelancer, a blogger on Sharednode.org, GDG organiser in Lisbon and a former teacher of Java and Android courses in a media school. To add more, he is also, a Benfica supporter."
+   thumbnailUrl: "filipe_mendes.png"
+   social:
+        - {name: "twitter", link: "https://twitter.com/fmendes6"}
+        - {name: "github", link: "https://github.com/fmendes6"}
+        - {name: "linkedin", link: "https://linkedin.com/in/fmendes6"}
 
   -
    id: 009
@@ -92,17 +133,29 @@
    surname: "Mota"
    title: ""
    company: ""
-   bio: ""
+   bio: "I’m a strong believer that… HAL didn’t do anything to harm Dave, he(?) was truly preoccupied with his friend safety. Also the answer to life, the universe and everything seems to (still) be 42.
+         <br/><br/>
+         At night I’m fighting crime… oh wait; wrong bio here. Here it goes the uncensored version: for several years now, I’ve been developing mobile applications. First on the energy consumption field, then Telco and, in the middle, of it I’ve found the time to create a game with some friends - Word Dare - it was fun! I’m currently working at WIT Software on the company RCSe applications - first for iOS and now on Android.
+         <br/><br/>
+         From time to time, I like to make long monologues and wait for the entire audience to fall asleep - lets call them “talks”. I’ve been giving a few for UC, WIT, DevFest, mdevcon, etc."
    thumbnailUrl: ""
+   social:
+        - {name: "google-plus", link: "https://plus.google.com/+"}
+        - {name: "twitter", link: "https://twitter.com/"}
+        - {name: "github", link: "https://github.com/"}
+        - {name: "facebook", link: "https://facebook.com/"}
 
   -
    id: 010
    name: "Florian"
    surname: "Mierzejewski"
-   title: ""
-   company: ""
-   bio: ""
-   thumbnailUrl: ""
+   title: "Android Developer"
+   company: "Novoda"
+   bio: "Android developer, Photographer, and well… French. Converting caffeine (und jetzt Club Mate) into great stuff @ Novoda."
+   thumbnailUrl: "florian_mierzejewski.jpeg"
+   social:
+        - {name: "twitter", link: "https://twitter.com/florianmski"}
+        - {name: "github", link: "https://github.com/florianmski"}
 
   -
    id: 011
@@ -112,15 +165,29 @@
    company: ""
    bio: ""
    thumbnailUrl: ""
+   social:
+        - {name: "google-plus", link: "https://plus.google.com/+"}
+        - {name: "twitter", link: "https://twitter.com/"}
+        - {name: "github", link: "https://github.com/"}
+        - {name: "facebook", link: "https://facebook.com/"}
 
   -
    id: 012
    name: "Tomek"
    surname: "Polanski"
-   title: ""
-   company: ""
-   bio: ""
-   thumbnailUrl: ""
+   title: "Software Developer"
+   company: "Futurice"
+   bio: "“50% of what we know is wrong, or inaccurate. Sadly, we don’t know which 50%”
+         <br/><br/>
+         This is a saying in medicine that drives people to ask “why?”. Challenging everything like this is the shortest way to improve oneself.
+         <br/><br/>
+         I’ve been a mobile software developer for over nine years and I’ve enjoyed every second of it. I am passionate about learning new things every single day and I am not afraid to have an open mind for any new idea.
+         <br/><br/>
+         I always try to find better ways of improving the thing we all love: creating"
+   thumbnailUrl: "tomek_polanski.png"
+   social:
+        - {name: "twitter", link: "https://twitter.com/tpolansk"}
+        - {name: "github", link: "https://github.com/tomaszpolanski"}
 
   -
    id: 013
@@ -128,26 +195,42 @@
    surname: "Chenon"
    title: ""
    company: ""
-   bio: ""
+   bio: "Raymond has developed Android apps since 2009 with a Nexus One. When the App Store went public, one of his colleague at Siemens Mobility, bragged about making a decent living with one iPhone app. He realised the potential of mobile apps. Ray gave several talks at Droidcon and meetups. A foodie by nature, he loves to try new restaurants ( next to work or during travels ).
+   <br/>When he is not coding, he learns foreign languages with the ultimate goal to claim one day : “I can speak more languages than I can program”. Ray also believes that writing in the 3rd person is impersonal."
    thumbnailUrl: ""
+   social:
+        - {name: "twitter", link: "https://twitter.com/"}
+        - {name: "github", link: "https://github.com/"}
 
   -
    id: 014
    name: "Peter"
    surname: "O'Shaughnessy"
-   title: ""
-   company: ""
-   bio: ""
-   thumbnailUrl: ""
+   title: "Developer Advocate"
+   company: "Samsung"
+   bio: "A tech geek most likely to be found messing around with some new Web API. I’ve been a developer in various industries since 2003, with a growing focus on innovation and the web. Previously I have helped the world’s largest education company to experiment with new technologies and led the development of a Bluetooth locker application now being trialled globally. This summer I joined the developer relations team at Samsung Internet to help developers create excellent, progressive web apps."
+   thumbnailUrl: "peter-oshaughnessy.jpg"
+   social:
+        - {name: "twitter", link: "https://twitter.com/poshaughnessy"}
+        - {name: "github", link: "https://github.com/poshaughnessy"}
+        - {name: "linkedin", link: "https://uk.linkedin.com/in/poshaughnessy"}
 
   -
    id: 015
    name: "Stefan"
    surname: "Judis"
-   title: ""
-   company: ""
-   bio: ""
-   thumbnailUrl: ""
+   title: "Developer Evangelist"
+   company: "Contentful"
+   bio: "Stefan started programming 6 years ago and quickly fell in love with web performance, new technologies and automation.
+         <br/><br/>
+         He worked for several startups in Berlin and recently joined Contentful to to tell the world how an API-first CMS can make you a bit happier.
+         <br/><br/>
+         He is also a curator of the web performance online resource Perf Tooling (perf-tooling.today), organizer of the Web Performance Meetup Berlin, contributes constantly to a variety of open source projects and enjoys sharing nerdy discoveries."
+   thumbnailUrl: "stefan_judis.jpg"
+   social:
+        - {name: "twitter", link: "https://twitter.com/stefanjudis"}
+        - {name: "github", link: "https://github.com/stefanjudis"}
+        - {name: "site", link: "https://www.stefanjudis.de"}
 
   -
    id: 016
@@ -155,26 +238,35 @@
    surname: "de Klerk"
    title: ""
    company: ""
-   bio: ""
+   bio: "Jean is a consultant and open source evangelist at Pivotal helping companies achieve success through the agile process, moving to cloud-ready apps, and enabling developers on technologies. Jean also works on CloudFoundry, Pivotal’s open source PaaS, building highly concurrent microservices in Go. Outside of work, Jean contributes to open source libraries, tinkers with Arduinos and Raspberry Pis, and enjoys the Colorado outdoors."
    thumbnailUrl: ""
+   social:
+        - {name: "github", link: "https://github.com/jadekler"}
 
   -
    id: 017
    name: "Björn"
    surname: "Rabenstein"
-   title: ""
-   company: ""
-   bio: ""
-   thumbnailUrl: ""
+   title: "Production Engineer"
+   company: "SoundCloud"
+   bio: "Björn is a Production Engineer at SoundCloud and one of the main Prometheus developers. Previously, he was a Site Reliability Engineer at Google and a number cruncher for science."
+   thumbnailUrl: "bjorn_rabenstein.jpg"
+   social:
+        - {name: "github", link: "https://github.com/beorn7"}
+        - {name: "linkedin", link: "https://de.linkedin.com/in/björn-rabenstein-75367b57"}
 
   -
    id: 018
    name: "Piyush"
    surname: "Verma"
-   title: ""
-   company: ""
-   bio: ""
-   thumbnailUrl: ""
+   title: "Software Architect and Consultant"
+   company: "oogway.in"
+   bio: "Piyush Verma is a Platform and Infrastructure consultant. He is an ex-KDE developer and created Siminars.com. He likes Multiprocessing, Distributed systems, APIs and automating everything. When not coding he can be found cycling around the town."
+   thumbnailUrl: "piyush_verma.jpeg"
+   social:
+        - {name: "twitter", link: "https://twitter.com/meson10"}
+        - {name: "github", link: "https://github.com/meson10"}
+        - {name: "linkedin", link: "https://www.linkedin.com/in/meson10"}
 
   -
    id: 019
@@ -182,17 +274,30 @@
    surname: "ADAM"
    title: ""
    company: ""
-   bio: ""
+   bio: "Marcos is a developer evangelist at Twilio where he serves communities in London and all over Europe. He is passionate about technology and design in general and spends a great deal of his time building mobile and web apps, and occasionally connecting them to physical devices.
+         <br/><br/>
+         Marcos is a great believer in open source projects. When he’s not writing open source code, he’s probably writing about code on his or his company’s blog.
+         <br/><br/>
+         He’s also a great API enthusiast and believes they bring peace to the Software Engineering world."
    thumbnailUrl: ""
+   social:
+        - {name: "google-plus", link: "https://plus.google.com/+"}
+        - {name: "twitter", link: "https://twitter.com/"}
+        - {name: "github", link: "https://github.com/"}
+        - {name: "facebook", link: "https://facebook.com/"}
 
   -
    id: 020
    name: "Ash"
    surname: "Davies"
-   title: ""
-   company: ""
-   bio: ""
-   thumbnailUrl: ""
+   title: "Senior Android Developer"
+   company: "ImmobilienScout24 "
+   bio: "Twenty-something Android Developer living in Berlin, musing over fond memories of British tea and Salt & Vinegar crisps."
+   thumbnailUrl: "ash_davis.jpeg"
+   social:
+        - {name: "google-plus", link: "https://plus.google.com/+ashdavies"}
+        - {name: "twitter", link: "https://twitter.com/dogmaticcoder "}
+        - {name: "github", link: "https://github.com/ashdavies "}
 
   -
    id: 021
@@ -202,6 +307,11 @@
    company: ""
    bio: ""
    thumbnailUrl:
+   social:
+        - {name: "google-plus", link: "https://plus.google.com/+"}
+        - {name: "twitter", link: "https://twitter.com/"}
+        - {name: "github", link: "https://github.com/"}
+        - {name: "facebook", link: "https://facebook.com/"}
 
   -
    id: 022
@@ -209,5 +319,47 @@
    surname: "Marinković"
    title: ""
    company: ""
-   bio: ""
+   bio: "Software enthusiast. Developer. Organizer. My interests are Android, modern web, tech and Internet Of Things. I like reading about innovation, programming, and organization. Love skiing. I organize events for Google Developer Group Novi Sad and work on various open-source projects."
+   thumbnailUrl: "milos_marinkovic.jpg"
+   social:
+        - {name: "google-plus", link: "https://plus.google.com/+MilosMarinkovic-milosmns"}
+        - {name: "twitter", link: "https://twitter.com/milosmns"}
+        - {name: "github", link: "https://github.com/milosmns"}
+        - {name: "linkedin", link: "https://www.linkedin.com/in/milosmns"}
+
+  -
+   id: 023
+   name: "Florina"
+   surname: "Muntenescu"
+   title: "Senior Android Developer"
+   company: "upday"
+   bio: "Florina passionately works at upday as a Senior Android Developer. She has been writing code for more than 7 years, mostly for Android. Florina keeps a strong focus on clean code and UI/UX. Previous work covered payment solutions at payleven and navigation services at Garmin."
+   thumbnailUrl: "florina_muntenescu.png"
+   social:
+      - {name: "twitter", link: "https://twitter.com/FMuntenescu"}
+      - {name: "github", link: "https://github.com/florina-muntenescu"}
+
+  -
+   id: 025
+   name: "Michal"
+   surname: "Harakal"
+   title: ""
+   company: ""
+   bio: "Passionate mobile developer, speaking Android from a very beginning."
    thumbnailUrl: ""
+   social:
+      - {name: "twitter", link: "https://twitter.com/MichalHarakal"}
+      - {name: "github", link: "https://github.com/sobrancan"}
+  -
+   id: 026
+   name: "David"
+   surname: "Cifuentes"
+   title: "Software Engineer"
+   company: "Zalando SE"
+   bio: "David is a Software Engineer at Zalando and a Google Developer Expert (GDE) for Cloud Platform based in Berlin, Germany. For the past few years, he has been developing applications for the cloud in different kinds of projects ranging from advertising tech, IoT and enterprise software. In his spare time he enjoys travelling, running and road cycling."
+   thumbnailUrl: "david_cifuentes.jpg"
+   social:
+      - {name: "google-plus", link: "https://plus.google.com/+DavidCifuentesC "}
+      - {name: "twitter", link: "https://twitter.com/dcifuen"}
+      - {name: "github", link: "https://github.com/dcifuen"}
+      - {name: "linkedin", link: "https://de.linkedin.com/in/dcifuen"}
