@@ -286,28 +286,59 @@
   speakers: [022]
   language: en
   complexity: "Intermediate" # Beginner / Intermediate / Expert
+#-
+#  id: 2013
+#  title: "Optimising The Performance Of VectorDrawables"
+#  description: "Support for SVG finally arrived to Android in the form of vector drawables.
+#                You have replaced (or you are planning to replace) absolutely all your PNGs with VectorDrawables and your APK is smaller. But now your app feels slower, the render time of your views has increased and you don’t know why! In this talk you will learn what VectorDrawables are and how they work under the hood.
+#                <br/>This will help you understand why in some situations two versions of the asset is better than one. In the VectorDrawable documentation there’s a recommendation easy to miss: the max size should be 200x200dp.
+#                <br/><br/>I will show you why this is, what effect can big resources have on your app’s performance but also, what are the possible solutions for this. Have you ever tried referencing resources in your VectorDrawable’s XML and failed? The talk will explain why and how to solve this."
+#  subtype: presentation
+#  speakers: [023]
+#  language: en
+#  complexity: "Beginner" # Beginner / Intermediate / Expert
+#-
+#  id: 2014
+#  title: "REST APIs with a contract-first approach"
+#  description: "Most of Android apps are talking to a some kind of REST API services. Libraries like Retrofit make it quite easy to implement decent code talking to a API.
+#  Another libraries like Butterknife, @AutoValue or POJO generators are saving us from a writing of boilerplate code. <br/>
+#  Lets make a next step and combine these together with a contract-first approach. In this talk we will have a look what contract-first approach is, on possibilities how to define API interfaces, endpoints, data structures (contract), how to generate code and we will share experiences from a real life project."
+#  subtype: presentation
+#  speakers: [025]
+#  language: en
+#  complexity: "Intermediate" # Beginner / Intermediate / Expert
 -
-  id: 2013
-  title: "Optimising The Performance Of VectorDrawables"
-  description: "Support for SVG finally arrived to Android in the form of vector drawables.
+  id: 2015
+  title: "Lightning talks"
+  description: "
+              <p></p>
+              <h6>Optimising The Performance Of VectorDrawables</h6>
+              <b>by Florina Muntenescu</b>
+              <p>
+                Support for SVG finally arrived to Android in the form of vector drawables.
                 You have replaced (or you are planning to replace) absolutely all your PNGs with VectorDrawables and your APK is smaller. But now your app feels slower, the render time of your views has increased and you don’t know why! In this talk you will learn what VectorDrawables are and how they work under the hood.
-                <br/>This will help you understand why in some situations two versions of the asset is better than one. In the VectorDrawable documentation there’s a recommendation easy to miss: the max size should be 200x200dp.
-                <br/><br/>I will show you why this is, what effect can big resources have on your app’s performance but also, what are the possible solutions for this. Have you ever tried referencing resources in your VectorDrawable’s XML and failed? The talk will explain why and how to solve this."
-  subtype: presentation
-  speakers: [023]
-  language: en
-  complexity: "Beginner" # Beginner / Intermediate / Expert
--
-  id: 2014
-  title: "REST APIs with a contract-first approach"
-  description: "Most of Android apps are talking to a some kind of REST API services. Libraries like Retrofit make it quite easy to implement decent code talking to a API.
-  Another libraries like Butterknife, @AutoValue or POJO generators are saving us from a writing of boilerplate code. <br/>
-  Lets make a next step and combine these together with a contract-first approach. In this talk we will have a look what contract-first approach is, on possibilities how to define API interfaces, endpoints, data structures (contract), how to generate code and we will share experiences from a real life project."
-  subtype: presentation
-  speakers: [025]
-  language: en
-  complexity: "Intermediate" # Beginner / Intermediate / Expert
+                <br/>I will show you why this is, what effect can big resources have on your app’s performance but also, what are the possible solutions for this. Have you ever tried referencing resources in your VectorDrawable’s XML and failed? The talk will explain why and how to solve this.
+              </p>
 
+              <h6>Exploring the new Google Cloud Endpoints</h6>
+              <b>by Michal Harakal</b>
+              <p>
+                The Google Cloud Platform team recently announced the release of a new version of Google Cloud Endpoints, a set of tools for implementing and managing APIs based on Google’s own internal experiences and best practices.
+                <br/>This new release not only keeps building on the most successful and useful features from the previous version but also offers more flexibility of deployment, interoperability with industry standards among other benefits.
+                <br/>During this talk you’ll see the main changes and hopefully it’ll get you excited to use them in your next project.
+              </p>
+
+              <h6>REST APIs with a contract-first approach</h6>
+              <b>by David Cifuentes</b>
+              <p>
+                Most of Android apps are talking to a some kind of REST API services. Libraries like Retrofit make it quite easy to implement decent code talking to a API.
+                Another libraries like Butterknife, @AutoValue or POJO generators are saving us from a writing of boilerplate code. <br/>
+                Lets make a next step and combine these together with a contract-first approach. In this talk we will have a look what contract-first approach is, on possibilities how to define API interfaces, endpoints, data structures (contract), how to generate code and we will share experiences from a real life project.
+              </p>
+  "
+  subtype: presentation
+  speakers: [023, 026, 025]
+  language: en
 
 ##############
 #  Web track #
@@ -459,16 +490,16 @@
   language: en
   complexity: "Intermediate" # Beginner / Intermediate / Expert
 
--
-  id: 2207
-  title: "Exploring the new Google Cloud Endpoints"
-  description: "The Google Cloud Platform team recently announced the release of a new version of Google Cloud Endpoints, a set of tools for implementing and managing APIs based on Google’s own internal experiences and best practices.
-              <br/>This new release not only keeps building on the most successful and useful features from the previous version but also offers more flexibility of deployment, interoperability with industry standards among other benefits.
-              <br/>During this talk you’ll see the main changes and hopefully it’ll get you excited to use them in your next project."
-  subtype: presentation
-  speakers: [026]
-  language: en
-  complexity: "Beginner" # Beginner / Intermediate / Expert
+#-
+#  id: 2207
+#  title: "Exploring the new Google Cloud Endpoints"
+#  description: "The Google Cloud Platform team recently announced the release of a new version of Google Cloud Endpoints, a set of tools for implementing and managing APIs based on Google’s own internal experiences and best practices.
+#              <br/>This new release not only keeps building on the most successful and useful features from the previous version but also offers more flexibility of deployment, interoperability with industry standards among other benefits.
+#              <br/>During this talk you’ll see the main changes and hopefully it’ll get you excited to use them in your next project."
+#  subtype: presentation
+#  speakers: [026]
+#  language: en
+#  complexity: "Beginner" # Beginner / Intermediate / Expert
 
 -
   id: 2208
