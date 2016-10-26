@@ -240,14 +240,14 @@
   speakers: [011]
   language: en
   complexity: "Beginner" # Beginner / Intermediate / Expert
--
-  id: 2010
-  title: "QUIT Automate the Mobile"
-  description: "If you are starting serious with Mobile development you need to have a plan! Let’s discuss what components you can set up in your Mobile DevOps landscape, how an application would travel from one state to another, and what do you need to to setup it. In the talk we will talk about CI, automation testing, provisioning, automatic PlayStore deployments, device labs and more."
-  subtype: presentation
-  speakers: [021]
-  language: en
-  complexity: "Intermediate" # Beginner / Intermediate / Expert
+#-
+#  id: 2010
+#  title: "QUIT Automate the Mobile"
+#  description: "If you are starting serious with Mobile development you need to have a plan! Let’s discuss what components you can set up in your Mobile DevOps landscape, how an application would travel from one state to another, and what do you need to to setup it. In the talk we will talk about CI, automation testing, provisioning, automatic PlayStore deployments, device labs and more."
+#  subtype: presentation
+#  speakers: [021]
+#  language: en
+#  complexity: "Intermediate" # Beginner / Intermediate / Expert
 -
   id: 2011
   title: "Modular Android UI"
@@ -457,16 +457,16 @@
   language: en
   complexity: "Intermediate" # Beginner / Intermediate / Expert
   presentation: "http://www.ptidej.net/courses/ift6251/fall06/presentations/061122/061122.doc.pdf"
--
-  id: 2204
-  title: "? Immutability: from code to infrastructure, the way of scalability"
-  description: "The all functional programming world, Docker, Clever Cloud, microservice architecture, logs append only DB…<br/>
-                All of this rely on the immutability at some point: infrastructure immutability, data immutability, append only. This is the way we now build some of the best scalable applications and infrastructure.
-                The talk is made to understand why Immutability rules the scalability and why it’s important."
-  subtype: presentation
-  speakers: [019]
-  language: en
-  complexity: "Beginner" # Beginner / Intermediate / Expert
+#-
+#  id: 2204
+#  title: "? Immutability: from code to infrastructure, the way of scalability"
+#  description: "The all functional programming world, Docker, Clever Cloud, microservice architecture, logs append only DB…<br/>
+#                All of this rely on the immutability at some point: infrastructure immutability, data immutability, append only. This is the way we now build some of the best scalable applications and infrastructure.
+#                The talk is made to understand why Immutability rules the scalability and why it’s important."
+#  subtype: presentation
+#  speakers: [019]
+#  language: en
+#  complexity: "Beginner" # Beginner / Intermediate / Expert
 -
   id: 2205
   title: "Design patterns in Microservices architectures using Gilmour"

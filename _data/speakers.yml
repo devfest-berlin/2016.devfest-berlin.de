@@ -23,7 +23,6 @@
    bio: "Gianluca is the founder and the lead Android developer of Uniwhere, a Berlin-based startup. He graduated in Economics, he has been a theatre actor and he thinks that code is like poetry: If you have it inside, it’s the only way you know to express yourself."
    thumbnailUrl: "gianluca_segato.jpg"
    social:
-        - {name: "google-plus", link: "https://plus.google.com/+"}
         - {name: "twitter", link: "https://twitter.com/giansegato"}
         - {name: "linkedin", link: "http://www.linkedin.com/in/giansegato"}
         - {name: "site", link: "http://gian.lu/"}
@@ -267,23 +266,23 @@
         - {name: "github", link: "https://github.com/meson10"}
         - {name: "linkedin", link: "https://www.linkedin.com/in/meson10"}
 
-  -
-   id: 019
-   name: "Quentin"
-   surname: "ADAM"
-   title: ""
-   company: ""
-   bio: "Marcos is a developer evangelist at Twilio where he serves communities in London and all over Europe. He is passionate about technology and design in general and spends a great deal of his time building mobile and web apps, and occasionally connecting them to physical devices.
-         <br/><br/>
-         Marcos is a great believer in open source projects. When he’s not writing open source code, he’s probably writing about code on his or his company’s blog.
-         <br/><br/>
-         He’s also a great API enthusiast and believes they bring peace to the Software Engineering world."
-   thumbnailUrl: ""
-   social:
-        - {name: "google-plus", link: "https://plus.google.com/+"}
-        - {name: "twitter", link: "https://twitter.com/"}
-        - {name: "github", link: "https://github.com/"}
-        - {name: "facebook", link: "https://facebook.com/"}
+#  -
+#   id: 019
+#   name: "Quentin"
+#   surname: "ADAM"
+#   title: ""
+#   company: ""
+#   bio: "Marcos is a developer evangelist at Twilio where he serves communities in London and all over Europe. He is passionate about technology and design in general and spends a great deal of his time building mobile and web apps, and occasionally connecting them to physical devices.
+#         <br/><br/>
+#         Marcos is a great believer in open source projects. When he’s not writing open source code, he’s probably writing about code on his or his company’s blog.
+#         <br/><br/>
+#         He’s also a great API enthusiast and believes they bring peace to the Software Engineering world."
+#   thumbnailUrl: ""
+#   social:
+#        - {name: "google-plus", link: "https://plus.google.com/+"}
+#        - {name: "twitter", link: "https://twitter.com/"}
+#        - {name: "github", link: "https://github.com/"}
+#        - {name: "facebook", link: "https://facebook.com/"}
 
   -
    id: 020
@@ -298,19 +297,19 @@
         - {name: "twitter", link: "https://twitter.com/dogmaticcoder "}
         - {name: "github", link: "https://github.com/ashdavies "}
 
-  -
-   id: 021
-   name: "Alexey"
-   surname: "Buzdin"
-   title: ""
-   company: ""
-   bio: ""
-   thumbnailUrl:
-   social:
-        - {name: "google-plus", link: "https://plus.google.com/+"}
-        - {name: "twitter", link: "https://twitter.com/"}
-        - {name: "github", link: "https://github.com/"}
-        - {name: "facebook", link: "https://facebook.com/"}
+#  -
+#   id: 021
+#   name: "Alexey"
+#   surname: "Buzdin"
+#   title: ""
+#   company: ""
+#   bio: ""
+#   thumbnailUrl:
+#   social:
+#        - {name: "google-plus", link: "https://plus.google.com/+"}
+#        - {name: "twitter", link: "https://twitter.com/"}
+#        - {name: "github", link: "https://github.com/"}
+#        - {name: "facebook", link: "https://facebook.com/"}
 
   -
    id: 022
@@ -349,6 +348,7 @@
    social:
       - {name: "twitter", link: "https://twitter.com/MichalHarakal"}
       - {name: "github", link: "https://github.com/sobrancan"}
+
   -
    id: 026
    name: "David"
@@ -358,10 +358,11 @@
    bio: "David is a Software Engineer at Zalando and a Google Developer Expert (GDE) for Cloud Platform based in Berlin, Germany. For the past few years, he has been developing applications for the cloud in different kinds of projects ranging from advertising tech, IoT and enterprise software. In his spare time he enjoys travelling, running and road cycling."
    thumbnailUrl: "david_cifuentes.jpg"
    social:
-      - {name: "google-plus", link: "https://plus.google.com/+DavidCifuentesC "}
+      - {name: "google-plus", link: "https://plus.google.com/+DavidCifuentesC"}
       - {name: "twitter", link: "https://twitter.com/dcifuen"}
       - {name: "github", link: "https://github.com/dcifuen"}
       - {name: "linkedin", link: "https://de.linkedin.com/in/dcifuen"}
+
   -
      id: 027
      name: "Robert"
