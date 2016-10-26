@@ -469,3 +469,12 @@
   speakers: [026]
   language: en
   complexity: "Beginner" # Beginner / Intermediate / Expert
+
+-
+  id: 2208
+  title: "Puppy or muffin? Easily leverage machine learning in your apps"
+  description: "Want to take advantage of machine learning without building and training your own models? The Google Cloud Vision and Speech APIs expose the machine learning functionality behind Google Photos, Google Images, and the speech recognition in “Ok, Google.” Developers can now build these features into their apps with a simple REST API call. We’ll provide an overview of these APIs, dive into code, and risk it all with a live demo."
+  subtype: presentation
+  speakers: [027]
+  language: en
+  complexity: "Beginner" # Beginner / Intermediate / Expert

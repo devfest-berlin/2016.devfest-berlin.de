@@ -32,15 +32,14 @@
    id: 002
    name: "R. Caner"
    surname: "Yıldırım"
-   title: ""
-   company: ""
+   title: "UX Designer"
+   company: "InnovationBox"
    bio: "Caner is a GDE on UX/UI who is also a technology geek. Mainly focused on the design and marketing of mobile applications. Passionate about good UX, IoT and Android. He works at InnovationBox, a design agency in Istanbul making and creating apps that users love. Caner has been an organiser of GDG Istanbul since 2013, organising, participating, and speaking at events."
-   thumbnailUrl: ""
+   thumbnailUrl: "yıldırım_caner.jpg"
    social:
-        - {name: "google-plus", link: "https://plus.google.com/+"}
-        - {name: "twitter", link: "https://twitter.com/"}
-        - {name: "github", link: "https://github.com/"}
-        - {name: "facebook", link: "https://facebook.com/"}
+        - {name: "google-plus", link: "https://plus.google.com/+rcaneryildirim "}
+        - {name: "twitter", link: "https://twitter.com/protechman "}
+        - {name: "linkedin", link: "http://linkedin.com/in/protechman"}
 
   -
    id: 003
@@ -193,14 +192,14 @@
    id: 013
    name: "Raymond"
    surname: "Chenon"
-   title: ""
-   company: ""
+   title: "Android developer"
+   company: "Zalando"
    bio: "Raymond has developed Android apps since 2009 with a Nexus One. When the App Store went public, one of his colleague at Siemens Mobility, bragged about making a decent living with one iPhone app. He realised the potential of mobile apps. Ray gave several talks at Droidcon and meetups. A foodie by nature, he loves to try new restaurants ( next to work or during travels ).
    <br/>When he is not coding, he learns foreign languages with the ultimate goal to claim one day : “I can speak more languages than I can program”. Ray also believes that writing in the 3rd person is impersonal."
-   thumbnailUrl: ""
+   thumbnailUrl: "raymond_chenon.jpg"
    social:
-        - {name: "twitter", link: "https://twitter.com/"}
-        - {name: "github", link: "https://github.com/"}
+        - {name: "twitter", link: "https://twitter.com/raychenon"}
+        - {name: "linkedin", link: "https://www.linkedin.com/in/raychenon"}
 
   -
    id: 014
@@ -346,7 +345,7 @@
    title: ""
    company: ""
    bio: "Passionate mobile developer, speaking Android from a very beginning."
-   thumbnailUrl: ""
+   thumbnailUrl: "michal_harakal.png"
    social:
       - {name: "twitter", link: "https://twitter.com/MichalHarakal"}
       - {name: "github", link: "https://github.com/sobrancan"}
@@ -363,3 +362,16 @@
       - {name: "twitter", link: "https://twitter.com/dcifuen"}
       - {name: "github", link: "https://github.com/dcifuen"}
       - {name: "linkedin", link: "https://de.linkedin.com/in/dcifuen"}
+  -
+     id: 027
+     name: "Robert"
+     surname: "Cubis"
+     title: ""
+     company: ""
+     bio: ""
+     thumbnailUrl: ""
+     social:
+        - {name: "google-plus", link: "https://plus.google.com/+ "}
+        - {name: "twitter", link: "https://twitter.com/"}
+        - {name: "github", link: "https://github.com/"}
+        - {name: "linkedin", link: "https://de.linkedin.com/in/"}
