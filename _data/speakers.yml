@@ -364,15 +364,14 @@
       - {name: "linkedin", link: "https://de.linkedin.com/in/dcifuen"}
 
   -
-     id: 027
-     name: "Robert"
-     surname: "Cubis"
-     title: ""
-     company: ""
-     bio: ""
-     thumbnailUrl: ""
-     social:
-        - {name: "google-plus", link: "https://plus.google.com/+ "}
-        - {name: "twitter", link: "https://twitter.com/"}
-        - {name: "github", link: "https://github.com/"}
-        - {name: "linkedin", link: "https://de.linkedin.com/in/"}
+    id: 027
+    name: "Robert"
+    surname: "Cubis"
+    title: "Cloud Developer Advocate"
+    company: "Google UK"
+    bio: "Robert Kubis is a Developer Advocate for the Google Cloud Platform based in London, UK, specializing in Container, Storage and Scalable technologies. <br/>Before joining Google, Robert collected over ten years of experience in Software Development and Architecture. He has driven multiple full-stack application developments at SAP with a passion for distributed systems, containers and databases. <br/>In his spare time he enjoys following tech trends & good restaurants, traveling and improving his photographing skills."
+    thumbnailUrl: "robert_kubis.jpg"
+    social:
+       - {name: "twitter", link: "https://twitter.com/hostirosti"}
+       - {name: "linkedin", link: "https://www.linkedin.com/in/kubisrobert"}
+       - {name: "site", link: "http://medium.com/@hostirosti"}
