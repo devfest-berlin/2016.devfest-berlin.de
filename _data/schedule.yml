@@ -9,22 +9,22 @@
     - {
     	startTime: "14:00",
     	endTime: "14:45",
-    	sessionIds: [201]
+    	sessionIds: [10001]
     }
     - {
         startTime: "14:45",
         endTime: "15:00",
-        sessionIds: [202]
+        sessionIds: [10002]
     }
     - {
     	startTime: "15:00",
     	endTime: "18:30",
-    	sessionIds: [203, 204, 205]
+    	sessionIds: [1000, 1101, 1200]
     }
     - {
         startTime: "19:30",
         endTime: "22:00",
-        sessionIds: [206, 207, 208]
+        sessionIds: [1001, 2015, 1201]
     }
 - 
   date: "2016-11-12"
@@ -37,65 +37,71 @@
     - {
     	startTime: "08:30",
     	endTime: "09:30",
-    	sessionIds: [301]
+    	sessionIds: [20001]
     }
     - {
     	startTime: "09:30",
     	endTime: "10:00",
-    	sessionIds: [302]
+    	sessionIds: [20002]
     }
     - {
         startTime: "10:00",
         endTime: "10:45",
-        sessionIds: [327, 325, 320]
+        sessionIds: [2001, 2100, 2200]
     }
     - {
         startTime: "11:00",
         endTime: "11:45",
-        sessionIds: [330, 324, 333]
+        sessionIds: [2002, 2101, 2201]
     }
     - {
         startTime: "12:00",
         endTime: "12:45",
-        sessionIds: [332, 337, 326]
+        sessionIds: [2004, 2102, 2202]
     }
     - {
         startTime: "13:00",
         endTime: "14:00",
-        sessionIds: [101]
+        sessionIds: [20003]
     }
+-
+  tracks:
+    - {title: "Android // Atrium", color: "#99cc00"}
+    - {title: "Android // Casino", color: "#99cc00"}
+    - {title: "Cloud // Konfi 4+5", color: "#3366cc"}
+  timeslots:
     - {
         startTime: "14:00",
         endTime: "14:45",
-        sessionIds: [331, 334, 321]
+        sessionIds: [2005, 2011, 2203]
     }
     - {
         startTime: "15:00",
         endTime: "15:45",
-        sessionIds: [329, 335, 323]
+        sessionIds: [2006, 2008, 2208]
     }
     - {
         startTime: "16:00",
         endTime: "16:45",
-        sessionIds: [328, 336, 322]
+        sessionIds: [2007, 2206, 2205]
     }
     - {
         startTime: "16:45",
         endTime: "17:30",
-        sessionIds: [102]
+        sessionIds: [20004]
     }
     - {
         startTime: "17:30",
         endTime: "18:15",
-        sessionIds: [303, 304, 305]
+        sessionIds: [20007, 9999, 9999]
     }
     - {
         startTime: "18:30",
         endTime: "19:00",
-        sessionIds: [306]
+        sessionIds: [20005]
     }
     - {
         startTime: "19:00",
         endTime: "23:59",
-        sessionIds: [307]
+        sessionIds: [20006]
     }
