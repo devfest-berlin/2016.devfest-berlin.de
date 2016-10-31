@@ -61,13 +61,6 @@
   place: "c-base space station"
   service: true
   description: "Join us for a great night on a crashed space station called c-base - the oldest hacker space in the world!"
--
-  id: 20007
-  title: "Fireside chat"
-  place: "Atrium"
-  service: true
-  description: ""
-
 
 #############
 # Workshops #
@@ -292,6 +285,14 @@
   speakers: [022]
   language: en
   complexity: "Intermediate" # Beginner / Intermediate / Expert
+
+-
+  id: 2013
+  title: "Fireside chat"
+  place: "Atrium"
+  service: true
+  description: ""
+
 #-
 #  id: 2013
 #  title: "Optimising The Performance Of VectorDrawables"
@@ -411,6 +412,12 @@
   speakers: []
   language: en
   complexity: "" # Beginner / Intermediate / Expert
+-
+  id: 2107
+  title: "Fireside chat"
+  place: "Atrium"
+  service: true
+  description: ""
 
 
 ###############
@@ -515,3 +522,9 @@
   speakers: [027]
   language: en
   complexity: "Beginner" # Beginner / Intermediate / Expert
+-
+  id: 2209
+  title: "Fireside chat"
+  place: "Atrium"
+  service: true
+  description: ""
