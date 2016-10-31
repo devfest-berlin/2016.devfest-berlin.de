@@ -1,8 +1,8 @@
 -
   id: 9999
-  title: "TBD"
+  title: ""
   place: ""
-  description: "TBD"
+  description: ""
 
 
 #####################
@@ -61,6 +61,12 @@
   place: "c-base space station"
   service: true
   description: "Join us for a great night on a crashed space station called c-base - the oldest hacker space in the world!"
+-
+  id: 20007
+  title: "Fireside chat"
+  place: "Atrium"
+  service: true
+  description: ""
 
 
 #############
