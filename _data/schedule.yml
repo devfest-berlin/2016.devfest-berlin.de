@@ -47,27 +47,22 @@
     - {
         startTime: "10:00",
         endTime: "10:45",
-        sessionIds: [2001, 9999, 2200]
+        sessionIds: [2001, 2100, 2200]
     }
     - {
         startTime: "11:00",
         endTime: "11:45",
-        sessionIds: [2002, 2100, 2201]
+        sessionIds: [2002, 2101, 2201]
     }
     - {
         startTime: "12:00",
         endTime: "12:45",
-        sessionIds: [2003, 2101, 2202]
+        sessionIds: [2004, 2102, 2202]
     }
     - {
         startTime: "13:00",
         endTime: "14:00",
         sessionIds: [20003]
-    }
-    - {
-        startTime: "14:00",
-        endTime: "14:45",
-        sessionIds: [2004, 2102, 2203]
     }
 -
   tracks:
@@ -76,14 +71,19 @@
     - {title: "Cloud // Konfi 4+5", color: "#3366cc"}
   timeslots:
     - {
+        startTime: "14:00",
+        endTime: "14:45",
+        sessionIds: [2005, 2011, 2203]
+    }
+    - {
         startTime: "15:00",
         endTime: "15:45",
-        sessionIds: [2005, 2011, 2208]
+        sessionIds: [2006, 2008, 2208]
     }
     - {
         startTime: "16:00",
         endTime: "16:45",
-        sessionIds: [2006, 2008, 2205]
+        sessionIds: [2007, 9999, 2205]
     }
     - {
         startTime: "16:45",
@@ -93,7 +93,7 @@
     - {
         startTime: "17:30",
         endTime: "18:15",
-        sessionIds: [2007, 9999, 2206]
+        sessionIds: [9999, 9999, 2206]
     }
     - {
         startTime: "18:30",
