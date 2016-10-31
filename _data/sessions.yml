@@ -289,8 +289,7 @@
 -
   id: 2013
   title: "Fireside chat"
-  place: "Atrium"
-  service: true
+  subtype: fireside
   description: ""
 
 #-
@@ -415,8 +414,7 @@
 -
   id: 2107
   title: "Fireside chat"
-  place: "Atrium"
-  service: true
+  subtype: fireside
   description: ""
 
 
@@ -525,6 +523,5 @@
 -
   id: 2209
   title: "Fireside chat"
-  place: "Atrium"
-  service: true
+  subtype: fireside
   description: ""
