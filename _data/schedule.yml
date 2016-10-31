@@ -90,10 +90,16 @@
         endTime: "17:30",
         sessionIds: [20004]
     }
+-
+  tracks:
+    - {title: "Android // Atrium", color: "#99cc00"}
+    - {title: "Web // Casino", color: "#ff8800"}
+    - {title: "Cloud // Konfi 4+5", color: "#3366cc"}
+  timeslots:
     - {
         startTime: "17:30",
         endTime: "18:15",
-        sessionIds: [20007, 9999, 9999]
+        sessionIds: [2013, 2107, 2209]
     }
     - {
         startTime: "18:30",
