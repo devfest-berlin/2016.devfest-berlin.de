@@ -5,7 +5,7 @@ date:   2016-11-1 23:59:59
 isStaticPost: false
 ---
 
-Less than a two weekd left to our annual DevFest and work piles up on our side.
+Less than a two weeks left to our annual DevFest and work piles up on our side.
 Thankfully, we have an awesome community that submitted great talks for Android, Web, Golang and Cloud.
 It has been an intense task to do, but finally we came with our selection of talks and workshops.
 
