@@ -159,15 +159,16 @@
    id: 011
    name: "Niko"
    surname: "Schröer"
-   title: ""
-   company: ""
-   bio: ""
-   thumbnailUrl: ""
+   title: "Business Development Android Apps at Google Play"
+   company: "Google"
+   bio: "Prior to Google, Niko gained experience in different marketing positions for sporting goods company Adidas and earned his diploma in Media Economics from the University of Applied Sciences in Cologne. When he does not “geek out” on the possibilities of mobile devices, he loves watching and doing any kind of sports.
+         <br/><br/>
+         As a Business Development Manager for Android Apps Niko Schröer works with developers in the DACH & Benelux region to successfully build and distribute Android apps on the Google Play store. In previous roles at Google, Niko worked as a specialist for ad monetisation on mobile devices and as an account manager for retail clients across Google´s advertising solutions."
+   thumbnailUrl: "niko_schroer.jpg"
    social:
-        - {name: "google-plus", link: "https://plus.google.com/+"}
-        - {name: "twitter", link: "https://twitter.com/"}
-        - {name: "github", link: "https://github.com/"}
-        - {name: "facebook", link: "https://facebook.com/"}
+        - {name: "google-plus", link: "https://plus.google.com/+NikoSchroer"}
+        - {name: "twitter", link: "https://twitter.com/niko_schr"}
+        - {name: "linkedin", link: "https://de.linkedin.com/in/nikoschroeer"}
 
   -
    id: 012
@@ -191,12 +192,13 @@
    id: 013
    name: "Raymond"
    surname: "Chenon"
-   title: "Android developer"
+   title: "Software Engineer "
    company: "Zalando"
    bio: "Raymond has developed Android apps since 2009 with a Nexus One. When the App Store went public, one of his colleague at Siemens Mobility, bragged about making a decent living with one iPhone app. He realised the potential of mobile apps. Ray gave several talks at Droidcon and meetups. A foodie by nature, he loves to try new restaurants ( next to work or during travels ).
    <br/>When he is not coding, he learns foreign languages with the ultimate goal to claim one day : “I can speak more languages than I can program”. Ray also believes that writing in the 3rd person is impersonal."
    thumbnailUrl: "raymond_chenon.jpg"
    social:
+        - {name: "google-plus", link: "https://plus.google.com/+RaymondChenon "}
         - {name: "twitter", link: "https://twitter.com/raychenon"}
         - {name: "linkedin", link: "https://www.linkedin.com/in/raychenon"}
 
