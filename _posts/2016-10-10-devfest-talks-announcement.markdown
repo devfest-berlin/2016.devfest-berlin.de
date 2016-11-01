@@ -13,5 +13,7 @@ We are happy to announce that we will have FIVE (you read it right) workshops on
 And on Saturday, more than twenty full length talks for all kinds of Google technologies.
 
 Head over here for the full [schedule](http://2016.devfest-berlin.de/schedule/).
-
+Can
 We hope you are excited just as we are, and to see you Friday 11th at ImmobilienScout24!
+
+Also: we still have tickets left, grab them while you can [here](http://2016.devfest-berlin.de/tickets/)
