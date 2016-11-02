@@ -42,14 +42,6 @@ Our diversity program is aimed to help underrepresented groups in tech to
 attend and lowering the barriers for them. This includes but isn’t limited to:
 women, people of color, LGBTQIA+ people, and disabled people.
 
-You can apply here for a free conference ticket.
-
-<div class="text-center" style="margin-top: 20px">
-  <p>
-    <a class="btn btn-primary waves-effect waves-button waves-light waves-float"
-      href="https://diversitytickets.org/events/47/applications/new?">
-      Apply for a ticket here!
-    </a>
-  </p>
-</div>
+This year's diversity tickets have been awared already.
+If you could not get one we hope to see you next year!
 
