@@ -423,7 +423,7 @@
 ###############
 -
   id: 2200
-  title: "Tensorflow and deep learning - without at PhD"
+  title: "Tensorflow and deep learning - without a PhD"
   description: "Google has recently open-sourced its framework for machine learning and neural networks called Tensorflow.<br/>
                 With this new tool, deep machine learning transitions from an area of research into mainstream software engineering. In this session, we will teach you how to choose the right neural network for your problem and how to make it behave.<br/>
                 Familiarity with differential equations is no longer required.<br/> Instead, a couple of lines of Tensorflow Python, and a bag of \"tricks of the trade\" will do the job.<br/><br/>
