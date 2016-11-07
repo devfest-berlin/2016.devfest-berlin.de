@@ -326,21 +326,23 @@
                 <br/>I will show you why this is, what effect can big resources have on your app’s performance but also, what are the possible solutions for this. Have you ever tried referencing resources in your VectorDrawable’s XML and failed? The talk will explain why and how to solve this.
               </p>
 
-              <h6>Exploring the new Google Cloud Endpoints</h6>
+              <h6>REST APIs with a contract-first approach</h6>
               <b>by Michal Harakal</b>
+              <p>
+                 Most of Android apps are talking to a some kind of REST API services. Libraries like Retrofit make it quite easy to implement decent code talking to a API.
+                 Another libraries like Butterknife, @AutoValue or POJO generators are saving us from a writing of boilerplate code. <br/>
+                 Lets make a next step and combine these together with a contract-first approach. In this talk we will have a look what contract-first approach is, on possibilities how to define API interfaces, endpoints, data structures (contract), how to generate code and we will share experiences from a real life project.
+              </p>
+
+              <h6>Exploring the new Google Cloud Endpoints</h6>
+              <b>by David Cifuentes</b>
               <p>
                 The Google Cloud Platform team recently announced the release of a new version of Google Cloud Endpoints, a set of tools for implementing and managing APIs based on Google’s own internal experiences and best practices.
                 <br/>This new release not only keeps building on the most successful and useful features from the previous version but also offers more flexibility of deployment, interoperability with industry standards among other benefits.
                 <br/>During this talk you’ll see the main changes and hopefully it’ll get you excited to use them in your next project.
               </p>
 
-              <h6>REST APIs with a contract-first approach</h6>
-              <b>by David Cifuentes</b>
-              <p>
-                Most of Android apps are talking to a some kind of REST API services. Libraries like Retrofit make it quite easy to implement decent code talking to a API.
-                Another libraries like Butterknife, @AutoValue or POJO generators are saving us from a writing of boilerplate code. <br/>
-                Lets make a next step and combine these together with a contract-first approach. In this talk we will have a look what contract-first approach is, on possibilities how to define API interfaces, endpoints, data structures (contract), how to generate code and we will share experiences from a real life project.
-              </p>
+
   "
   subtype: presentation
   speakers: [023, 026, 025]
