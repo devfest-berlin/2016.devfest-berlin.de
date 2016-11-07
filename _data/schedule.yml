@@ -2,7 +2,7 @@
   date: "2016-11-11"
   dateReadable: "Workshops // Friday, November 11"
   tracks: 
-    - {title: "¯\_(ツ)_/¯ shrug // Atrium", color: "#99cc00"}
+    - {title: "¯\\_(ツ)_/¯ shrug // Atrium", color: "#99cc00"}
     - {title: "(◠‿◠✿) flower girl // Casino", color: "#ff8800"}
     - {title: "ʕ •ᴥ•ʔ the bear // Konfi 4+5", color: "#3366cc"}
   timeslots:
@@ -30,7 +30,7 @@
   date: "2016-11-12"
   dateReadable: "Conference // Saturday, November 12"
   tracks: 
-    - {title: "¯\_(ツ)_/¯ shrug // Atrium", color: "#99cc00"}
+    - {title: "¯\\_(ツ)_/¯ shrug // Atrium", color: "#99cc00"}
     - {title: "(◠‿◠✿) flower girl // Casino", color: "#ff8800"}
     - {title: "ʕ •ᴥ•ʔ the bear // Konfi 4+5", color: "#3366cc"}
   timeslots: 
@@ -64,12 +64,6 @@
         endTime: "14:00",
         sessionIds: [20003]
     }
--
-  tracks:
-    - {title: "Android // Atrium", color: "#99cc00"}
-    - {title: "Android // Casino", color: "#99cc00"}
-    - {title: "Cloud // Konfi 4+5", color: "#3366cc"}
-  timeslots:
     - {
         startTime: "14:00",
         endTime: "14:45",
@@ -90,12 +84,6 @@
         endTime: "17:30",
         sessionIds: [20004]
     }
--
-  tracks:
-    - {title: "Android // Atrium", color: "#99cc00"}
-    - {title: "Web // Casino", color: "#ff8800"}
-    - {title: "Cloud // Konfi 4+5", color: "#3366cc"}
-  timeslots:
     - {
         startTime: "17:30",
         endTime: "18:15",
