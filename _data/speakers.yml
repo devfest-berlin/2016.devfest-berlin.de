@@ -377,3 +377,41 @@
        - {name: "twitter", link: "https://twitter.com/hostirosti"}
        - {name: "linkedin", link: "https://www.linkedin.com/in/kubisrobert"}
        - {name: "site", link: "http://medium.com/@hostirosti"}
+
+  -
+    id: 028
+    name: "Mario"
+    surname: "Bodemann"
+    title: "Android and Java Evangelist"
+    company: "Contentful"
+    bio: "Google Developer Group Co-Organiser @Berlindroid
+          <br/>
+          Android and Java Evangelist @Contentful
+          <br/>
+          Software Engineer @Memorado and @here
+          <br/>
+          Graduate Software Engineer @Wooga
+          <br/>
+          Research Associate @HHIFraunhofer"
+    thumbnailUrl: "MarioBodemann.jpg"
+    social:
+       - {name: "google-plus", link: "https://plus.google.com/+MarioBodemann"}
+       - {name: "twitter", link: "https://twitter.com/MarioBodemann"}
+       - {name: "linkedin", link: "https://www.linkedin.com/in/mariobodemann"}
+
+  -
+    id: 029
+    name: "Hasan"
+    surname: "Hosgel"
+    title: "Android GDE &  Senior Android Developer"
+    company: "ImmobilienScout24"
+    bio: "Since 2010 doing all day long Android application development. Continuous improvement of the architecture, performance and also quality are his dedication.
+      <br/><br/>He works since 2006 for ImmobilienScout24, Germany’s real estate marketplace leader. With a short intermezzo at Kitchen Stories, which offered a premium cooking application.
+      <br/><br/>As a co-organizer of the “GDG Berlin Android” and as a speaker he attended many mobile conferences and several Google Developer Groups across Europe.
+      As well being in program committees and organization of mobile conferences."
+    thumbnailUrl: "HasanHosgel.jpg"
+    social:
+       - {name: "google-plus", link: "https://plus.google.com/+HasanHosgel"}
+       - {name: "facebook", link: "https://www.facebook.com/hosgel"}
+       - {name: "twitter", link: "https://twitter.com/alosdev"}
+       - {name: "linkedin", link: "https://www.linkedin.com/in/hosgel"}

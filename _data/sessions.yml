@@ -91,6 +91,17 @@
   speakers: [002]
   complexity: "Beginner"
 
+-
+  id: 1002
+  title: "Firebase Codelab"
+  description: " In this workshop we will do a small intro to firebase on Android and after that we will go through the Firebase Android Codelab in a self spaced manner.
+                <br/><br/>
+                <b>If you join this session please have Android Studio already installed.</b>"
+  subtype: workshop
+  language: en
+  speakers: [029]
+  complexity: "Beginner"
+
 # Web - 11xx
 -
   id: 1100
@@ -360,15 +371,27 @@
   speakers: [004]
   language: en
   complexity: "Beginner" # Beginner / Intermediate / Expert
+#-
+#  id: 2101
+#  title: "Responsive to 3 Dimensions: seamless Virtual Reality on the Web"
+#  description: "WebVR is the JavaScript API for browser-based virtual reality.<br/>
+#                Using it directly, or via frameworks like A-Frame, web developers can quickly and easily develop VR experiences for both PC and mobile-based headsets.<br/>
+#                Not just for full-blown games and apps, VR is also set to become a seamless part of web browsing experiences. Viewing a page on your mobile phone and it supports VR?<br/>
+#                Place it in a headset and go! This talk will share how you can extend your web apps out into the third dimension, using WebVR and A-Frame."
+#  subtype: presentation
+#  speakers: [014]
+#  language: en
+#  complexity: "Beginner" # Beginner / Intermediate / Expert
 -
   id: 2101
-  title: "Responsive to 3 Dimensions: seamless Virtual Reality on the Web"
-  description: "WebVR is the JavaScript API for browser-based virtual reality.<br/>
-                Using it directly, or via frameworks like A-Frame, web developers can quickly and easily develop VR experiences for both PC and mobile-based headsets.<br/>
-                Not just for full-blown games and apps, VR is also set to become a seamless part of web browsing experiences. Viewing a page on your mobile phone and it supports VR?<br/>
-                Place it in a headset and go! This talk will share how you can extend your web apps out into the third dimension, using WebVR and A-Frame."
+  title: "Daydreaming about Cardboards: Virtual Reality in Android"
+  description: "On this year's IO Google announced Daydream, a new way of integrating your apps with Virtual Reality.
+                <br/><br/>
+                To prepare the audience for those new changes, I'll explain the current situation of the VR on Android by live coding two apps: An app using Unity to produce an App on Android and Ios, but also show how to write a simple photosphere app, written in pure Java, emphasizing the differences and similarities between both SDKs.
+                <br/><br/>
+                After showing how to easily write Cardboard Apps, I'll introduce Daydream, and how this specification changes the usage of the SDK and how to use the simulated, or real controller."
   subtype: presentation
-  speakers: [014]
+  speakers: [028]
   language: en
   complexity: "Beginner" # Beginner / Intermediate / Expert
 -
