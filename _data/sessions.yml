@@ -82,13 +82,16 @@
   complexity: "Intermediate"
 -
   id: 1001
-  title: "Designing & Prototyping Your First Android Wear Application"
-  description: "Wearable devices are one of the most popular things nowadays. Specially, after the Apple Watch, we finally get the whole picture of the entire list of products and their features.<br/>
-                Now, we can talk about how we can design a user experience for this type of devices. Every platform has it’s own design principles and approaches. But, in the core, they all need to follow same core rules. <br/>
-                So, how we combine this core requirements with Google’s Material Design and use them on an Android Wear device? Let’s learn!"
+  title: "Building apps in Go for Google App Engine"
+  description: "Google App Engine provides developers with a NoOps solution for hosting their applications and services.
+                With a configuration file and a few tweaks to the code, a Go package can be deployed to Google’s servers where it’s ready for near infinite scale.
+                <br/><br/>
+                This workshop will explain everything you need to know to get started, along with some pragmatic advice, and common gotchas to avoid.
+                <br/>
+                The workshop covers how to store and query data using Google Cloud Datastore, memcache, options for authenticating users, scheduling background tasks, building micro-services, and more."
   subtype: workshop
   language: en
-  speakers: [002]
+  speakers: [004]
   complexity: "Beginner"
 
 -
