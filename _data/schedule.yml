@@ -2,9 +2,9 @@
   date: "2016-11-11"
   dateReadable: "Workshops // Friday, November 11"
   tracks: 
-    - {title: "¯\\_(ツ)_/¯ shrug // Atrium", color: "#99cc00"}
-    - {title: "(◠‿◠✿) flower girl // Casino", color: "#ff8800"}
-    - {title: "ʕ •ᴥ•ʔ the bear // Konfi 4+5", color: "#3366cc"}
+    - {title: "¯\\_(ツ)_/¯ shrug", color: "#99cc00"}
+    - {title: "(◠‿◠✿) flower girl", color: "#ff8800"}
+    - {title: "ʕ •ᴥ•ʔ the bear", color: "#3366cc"}
   timeslots:
     - {
     	startTime: "14:00",
