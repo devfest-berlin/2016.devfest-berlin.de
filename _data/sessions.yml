@@ -304,7 +304,7 @@
   id: 2013
   title: "Fireside chat"
   subtype: fireside
-  description: ""
+  description: "Open discussion with speakers and audience about the future of Android"
 
 #-
 #  id: 2013
@@ -443,7 +443,7 @@
   id: 2107
   title: "Fireside chat"
   subtype: fireside
-  description: ""
+  description: "Open discussion with speakers and audience about the future of Cloud Computing"
 
 
 ###############
@@ -552,4 +552,4 @@
   id: 2209
   title: "Fireside chat"
   subtype: fireside
-  description: ""
+  description: "Please attend the fireside chats at the Atrium (Android) or Casino (Cloud)."
